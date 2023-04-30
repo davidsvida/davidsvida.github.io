@@ -115,7 +115,7 @@ menu:
     - name: Archive
       url: archives
       weight: 10
-    -identifier: Search 
+    - identifier: Search 
       name: Search
       url: search
       weight: 20
