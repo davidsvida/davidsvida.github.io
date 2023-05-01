@@ -12,15 +12,15 @@ buildExpired: false
 
 googleAnalytics: G-C82WSJW7GT
 
+minify:
+  disableXML: true
+ # minifyOutput: true
+
 outputs:
     home:
         - HTML
         - RSS
         - JSON # is necessary
-
-minify:
-  disableXML: true
-  minifyOutput: true
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -100,6 +100,8 @@ params:
 
   # for search
   # https://fusejs.io/api/options.html
+ # for search
+# https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -110,11 +112,12 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - name: Archive
+    - identifier: Archive
+      name: Archive
       url: archives
       weight: 10
-    - identifier: Search 
-      name: Search
+    - identifier: Search
+      name: Search 
       url: search
       weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
