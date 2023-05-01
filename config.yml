@@ -1,106 +1,20 @@
 baseURL: "https://davidsvida.github.io"
 title: David
 paginate: 5
-theme: PaperMod
+theme: hugo-PaperMod
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
+enableEmoji: true
+pygmentsUseClasses: true
 googleAnalytics: G-C82WSJW7GT
 
 minify:
-  disableXML: true
-  minifyOutput: true
-
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
-
-params:
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
-
-  env: production
-  title: David
-  description: "David Cepeda's personal website with random stuff that he wants to put out on the internet "
-  keywords: [Blog, Portfolio, PaperMod]
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto
-  disableThemeToggle: false
-
-  ShowReadingTime: true
-  ShowShareButtons: false
-  ShowPostNavLinks: false
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: false
-  UseHugoToc: false
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
-
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "favicon.svg"
-
-  profileMode:
-    enabled: false
-    title: david
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-
-  homeInfoParams:
-    Title: "Hi \U0001F32E"
-    Content: My name is David Cepeda. I love math and science, and I enjoy traveling and experiencing new things.
-
-  socialIcons:
-    - name: ycombinator
-      url: "https://news.ycombinator.com/user?id=davidsvida"
-    - name: youtube
-      url: "https://www.youtube.com/@davidsvida679"
-    - name: github
-      url: "https://github.com/davidsvida"
-    - name: other 
-      url: "google.com"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/davidcepeda05/"
-
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
-  cover:
-    hidden: true
-    hiddenInList: true
-    hiddenInSingle: true
+    disableXML: true
+    # minifyOutput: true
 
 menu:
   main:
@@ -113,12 +27,113 @@ menu:
       url: /search/
       weight: 20
 
-pygmentsUseClasses: true
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "David Cepeda's personal website with random stuff that he wants to put out on the internet "
+    title: David
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    # comments: false
+
+    profileMode:
+        enabled: false
+        title: PaperMod
+        imageUrl: "#"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Archives
+              url: archives
+            - name: Tags
+              url: tags
+
+    homeInfoParams:
+        Title: "Hi \U0001F32E"
+        Content:  My name is David Cepeda. I love math and science, and I enjoy traveling and experiencing new things.
+           
+    socialIcons:
+        - name: ycombinator
+          url: "https://news.ycombinator.com/user?id=davidsvida"
+        - name: youtube
+          url: "https://www.youtube.com/@davidsvida679"
+        - name: github
+          url: "https://github.com/davidsvida"
+        - name: other 
+          url: "google.com"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/davidcepeda05/"
+
+
+    # label:
+    #     text: "Home"
+    #     icon: icon.png
+    #     iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    assets:
+        disableHLJS: true
+        favicon: "favicon.svg"
+
+     fuseOpts:
+         isCaseSensitive: false
+         shouldSort: true
+         location: 0
+         distance: 1000
+         threshold: 0.4
+         minMatchCharLength: 0
+         keys: ["title", "permalink", "summary", "content"]
+
 markup:
-  highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
