@@ -91,7 +91,7 @@ params:
 
     assets:
         disableHLJS: true
-        favicon: "favicon.svg"
+        favicon: "favicon.ico"
 
 
     fuseOpts:

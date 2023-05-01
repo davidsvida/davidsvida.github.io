@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://davidsvida.github.io/sitemap.xml
