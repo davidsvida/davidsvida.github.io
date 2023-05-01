@@ -8,28 +8,24 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-
-
 googleAnalytics: G-C82WSJW7GT
 
 minify:
   disableXML: true
- # minifyOutput: true
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production
   title: David
   description: "David Cepeda's personal website with random stuff that he wants to put out on the internet "
   keywords: [Blog, Portfolio, PaperMod]
-  # author: ["Me", "You"] # multiple authors
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: auto
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -49,13 +45,10 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
     favicon: "favicon.svg"
 
-  # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: false
     title: david
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
@@ -68,10 +61,9 @@ params:
       - name: Tags
         url: tags
 
-  # home-info mode
   homeInfoParams:
     Title: "Hi \U0001F32E"
-    Content: My name is David Cepeda. I love math and science, and I enjoy traveling and experiencing new things. 
+    Content: My name is David Cepeda. I love math and science, and I enjoy traveling and experiencing new things.
 
   socialIcons:
     - name: ycombinator
@@ -94,14 +86,10 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
 
-  # for search
-  # https://fusejs.io/api/options.html
- # for search
-# https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -110,6 +98,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
     - identifier: Archive
@@ -120,7 +109,7 @@ menu:
       name: Search 
       url: search
       weight: 20
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+
 pygmentsUseClasses: true
 markup:
   highlight:
