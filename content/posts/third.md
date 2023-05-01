@@ -1,7 +1,8 @@
 ---
-title: "Intro"
+title: "Capstone"
 date: 2023-04-30T20:08:50+00:00
-weight: 1
+description: "My final university project."
+
 
 
 
@@ -22,10 +23,6 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
-Welcome,
+## Project 
 
-My name is David Cepeda.
-
-I plan to keep this website very simple and short. Essentially, it is my home on the internet where I can post anything.
-
----
+![graph](https://github.com/gothinkster/realworld/raw/main/diagram.svg)
