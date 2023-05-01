@@ -12,14 +12,24 @@ googleAnalytics: G-C82WSJW7GT
 
 minify:
   disableXML: true
+  minifyOutput: true
 
 outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
 
 params:
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
   env: production
   title: David
   description: "David Cepeda's personal website with random stuff that he wants to put out on the internet "
@@ -30,12 +40,12 @@ params:
 
   ShowReadingTime: true
   ShowShareButtons: false
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
   ShowWordCount: true
   ShowRssButtonInSectionTermList: false
-  UseHugoToc: true
+  UseHugoToc: false
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
@@ -45,6 +55,8 @@ params:
   tocopen: false
 
   assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
     favicon: "favicon.svg"
 
   profileMode:
@@ -89,15 +101,6 @@ params:
     hidden: true
     hiddenInList: true
     hiddenInSingle: true
-
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
 
 menu:
   main:
