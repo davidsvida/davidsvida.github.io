@@ -1,7 +1,7 @@
 baseURL: "https://davidsvida.github.io"
 title: David
 paginate: 5
-theme: hugo-PaperMod
+theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
