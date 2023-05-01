@@ -33,7 +33,7 @@ UseHugoToc: false
 
 ---
 ## random image 
-![NAMENENEN](image.jpeg)
+![NAMENENEN](image.jpg)
 
 
 ## in text image 
