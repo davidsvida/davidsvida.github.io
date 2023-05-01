@@ -32,8 +32,8 @@ UseHugoToc: false
 **Test**: does this even work?
 
 ---
-
-![name](blob.svg#center)
+## random image 
+![NAMENENEN](image.png)
 
 Test link: [I am link!](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity)
 

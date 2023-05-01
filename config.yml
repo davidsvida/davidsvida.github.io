@@ -52,7 +52,7 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "blob.svg"
+    favicon: "Flag_of_Catalonia.svg"
 
 
   # profile-mode
