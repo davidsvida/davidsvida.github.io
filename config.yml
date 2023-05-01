@@ -24,10 +24,9 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: david
+  title: David
   description: "David Cepeda's personal website with random stuff that he wants to put out on the internet "
   keywords: [Blog, Portfolio, PaperMod]
-  author: David Cepeda
   # author: ["Me", "You"] # multiple authors
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
