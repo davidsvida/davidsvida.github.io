@@ -33,7 +33,11 @@ UseHugoToc: false
 
 ---
 ## random image 
-![NAMENENEN](image.png)
+![NAMENENEN](image.jpeg)
+
+
+## in text image 
+hello hugo {{< inTextImg url="https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo-logo.png" height="14" >}}
 
 Test link: [I am link!](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity)
 
