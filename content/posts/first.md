@@ -3,7 +3,6 @@ title: "Example"
 date: 2023-04-30T20:08:50+00:00
 author: "David Cepeda"
 description: "A test"
-weight: 1
 
 
 
