@@ -101,13 +101,13 @@ params:
 
 menu:
   main:
-    - identifier: Archive
+    - identifier: archive
       name: Archive
-      url: archives
+      url: /archives/
       weight: 10
-    - identifier: Search
+    - identifier: search
       name: Search 
-      url: search
+      url: /search/
       weight: 20
 
 pygmentsUseClasses: true
