@@ -1,7 +1,6 @@
 ---
 title: "Example"
-date: 2023-04-30T20:08:50+00:00
-author: "David Cepeda"
+date: 2023-04-30
 description: "A test"
 
 
@@ -14,14 +13,13 @@ comments: false
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: true
-hideSummary: false
-searchHidden: false
+hideSummary: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
+ShowPostNavLinks: false
 ---
 
 # Bigger
@@ -47,6 +45,7 @@ link to my video I wonder
 {{< youtube xg3ttTZ_eZM >}}
 
 ---
+*hello* italics
 
 `cool?` does this look cool 
 

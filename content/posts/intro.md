@@ -1,7 +1,7 @@
 ---
-title: "Problem Solving Quote "
-date: 2023-05-01
-description: "Quote by Albert Einstein "
+title: "Intro"
+date: 2023-04-30T20:08:50+00:00
+weight: 1
 
 
 
@@ -17,11 +17,15 @@ hideSummary: false
 searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ShowWordCount: true
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
-**If I had an hour to solve a problem, I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions**
+Welcome,
+
+My name is David Cepeda.
+
+I plan to keep this website very simple and short. Essentially, it is my home on the internet where I can post anything.
 
 ---
