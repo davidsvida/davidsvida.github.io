@@ -1,10 +1,7 @@
 ---
-title: "Example"
+title: "To be Determined"
 date: 2023-04-30
-description: "A test"
-
-
-
+description: "A template"
 showToc: false
 TocOpen: false
 draft: false
@@ -50,4 +47,3 @@ link to my video I wonder
 `cool?` does this look cool 
 
 Hugo is the world’s fastest framework for building websites
----

@@ -1,10 +1,7 @@
 ---
-title: "Intro"
-date: 2023-04-30T20:08:50+00:00
-weight: 1
-
-
-
+title: "Wikipedia"
+date: 2023-04-30
+description: "The best website in existence "
 showToc: false
 TocOpen: false
 draft: false
@@ -13,19 +10,13 @@ comments: false
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: true
-hideSummary: false
-searchHidden: false
+hideSummary: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: false
 ShowWordCount: true
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
+ShowPostNavLinks: false
 ---
-Welcome,
 
-My name is David Cepeda.
-
-I plan to keep this website very simple and short. Essentially, it is my home on the internet where I can post anything.
-
----
+This is just a blog post, telling everyone how much I love wikipedia. That is all 

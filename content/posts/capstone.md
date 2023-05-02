@@ -45,6 +45,6 @@ As of now, I plan for this to be an e-commerce site. Exactly what I will do in r
 
 ### Other 
 
-opencart / opencart: An open-source PHP-based online e-commerce solution. Like PrestaShop, OpenCart is a complete eCommerce platform, but it's simpler and easier to use and modify, which might make it a good choice if you're new to programming.
+[opencart / opencart](https://github.com/opencart/opencart): An open-source PHP-based online e-commerce solution. Like PrestaShop, OpenCart is a complete eCommerce platform, but it's simpler and easier to use and modify, which might make it a good choice if you're new to programming.
 
 ---

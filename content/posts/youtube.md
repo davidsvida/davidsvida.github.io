@@ -26,21 +26,25 @@ UseHugoToc: false
 ## Channels 
 ---
 **Fireship**
+
 Good web dev content I think 
 -   https://www.youtube.com/@Fireship
 ---
 
 **3Blue1Brown**
+
 Some of the best visuals in education
 -   https://www.youtube.com/@3blue1brown
 ---
 
 **Johnny Harris**
+
 A journalist who I think makes good, entertaining work 
 -   https://www.youtube.com/@johnnyharris
 ---
 
 **Vox**
+
 An american mass media company who makes interesting videos 
 -   https://www.youtube.com/@Vox
 ---
