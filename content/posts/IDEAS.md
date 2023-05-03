@@ -29,4 +29,15 @@ REST API is a type of web service that uses HTTP requests to access and manipula
 
 ---
 
+## Questions
+
+-   Research some new Tech (100 seconds of from fireship) 
+    -   [How a CPU Works in 100 Seconds // Apple Silicon M1 vs Intel i9](https://www.youtube.com/watch?v=vqs_0W-MSB0)
+
+
+-   is most of the web dev github repos written in PHP or what? I keep seeing it everywhere
+
+-   Containers share the host operating system kernel
+
+
 
