@@ -40,4 +40,3 @@ REST API is a type of web service that uses HTTP requests to access and manipula
 -   Containers share the host operating system kernel
 
 
-

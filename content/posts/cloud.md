@@ -1,4 +1,3 @@
----
 title: "Cloud Computing"
 date: 2023-04-30
 showToc: false
@@ -61,4 +60,9 @@ Cloud native applications are applications that are built and designed to levera
 3. **What skills are needed to develop cloud-native applications?**
 
    Developers need a strong understanding of cloud computing concepts, experience with microservices architecture, knowledge of container technologies like Docker and Kubernetes, and familiarity with DevOps practices.
+
+4. **What skills are the most valuable cloud computing skill**
+
+   My answer the this questions would be Cloud-native development - As more applications are developed specifically for the cloud, cloud engineers will need to have a deep understanding of cloud-native development frameworks and tools, such as Kubernetes, Docker, and serverless computing.
+
 
