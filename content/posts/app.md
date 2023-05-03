@@ -92,6 +92,51 @@ It's also important to note that the success of an enterprise app is not solely 
 ---
 ##  Examples: 
 
+e-commerce platform that offers product listings, shopping cart functionality, secure checkout, order tracking, customer reviews, and an AI-based recommendation engine.
+
+1. **Containers (Docker, Kubernetes):** Docker will be used to containerize our application, ensuring that it runs the same way in every environment. Kubernetes will manage these containers, handling deployment, scaling, and load balancing.
+
+2. **Virtual Machines (EC2):** EC2 instances will host our Docker containers. Different types of instances may be used for different services, depending on their resource requirements.
+
+3. **Serverless computing (Lambda):** Lambda can handle event-driven tasks, like sending a confirmation email after an order is placed, or processing images uploaded for product listings.
+
+4. **Virtual Network (AWS VPC):** Our resources will be deployed in a VPC to isolate them from the public internet. VPCs can be split into multiple subnets to further segment resources and control traffic flow.
+
+5. **Load Balancer (AWS ELB):** The ELB will distribute incoming traffic across our EC2 instances to ensure that no single instance becomes a bottleneck and to provide fault tolerance.
+
+6. **Content Delivery Network (Cloudflare):** Cloudflare will cache static content close to users to reduce load times and lessen the load on our servers.
+
+7. **Managed relational database (Amazon RDS):** RDS will store structured data like user information, product listings, and order histories. It will handle database management tasks like patching and backups.
+
+8. **NoSQL database (DynamoDB):** DynamoDB will be used for data that doesn't fit neatly into a relational model, like the shopping cart data, which might contain different numbers and types of items for each user.
+
+9. **In-memory database (Redis):** Redis will store session data to keep users logged in across multiple servers and cache frequently-accessed data to reduce
+
+10. **Big Data Processing (Apache Hadoop or Spark):** These tools will be used to process large amounts of data for analytics, like identifying buying trends or generating reports.
+
+11. **Data Warehousing (Amazon Redshift):** Redshift will be used as a central repository for our data. This is where we would perform complex, large-scale analytics queries.
+
+12. **Machine Learning (Amazon SageMaker):** SageMaker will be used to develop, train, and deploy our product recommendation engine. It can take user behavior data from our databases and use it to predict what products a user may be interested in.
+
+13. **Object Storage (Amazon S3):** S3 will store static files like product images and website assets. It can also store backups and logs.
+
+14. **Block Storage (AWS EBS):** EBS volumes will provide persistent storage for our EC2 instances. This could include the operating system files, application code, and any temporary or transitional data.
+
+15. **File Storage (Amazon EFS):** EFS will be used for shared storage between instances. If multiple instances need to access the same files, they would be stored on EFS.
+
+16. **Identity and Access Management (Okta):** Okta will manage user identities and control what resources they can access. This includes both customers logging into the website and employees accessing AWS resources.
+
+17. **Encryption (Amazon KMS):** KMS will be used to encrypt sensitive data at rest and in transit. This includes things like user passwords, payment information, and any other sensitive data.
+
+18. **Firewalls (Amazon WAF):** WAF will protect our application from common web exploits like SQL injection and cross-site scripting.
+
+19. **Monitoring and Logging (AWS CloudWatch):** CloudWatch will collect and track metrics, collect and monitor log files, and set alarms. This information can be used to troubleshoot issues and optimize performance.
+
+20. **Continuous Integration and Deployment (Jenkins):** Jenkins will automate the process of testing our code and deploying it to our servers. This helps ensure that any changes don't break existing functionality and makes deployments faster and more reliable.
+
+21. **Infrastructure as Code (Terraform):** Terraform will be used to manage our AWS resources. This makes our infrastructure easily reproducible and enables version control.
+
+22. **Microservices (Kubernetes):** Our application will be split into microservices, each running in its own container. This makes it easier to scale and update individual components of our application. Kubernetes will manage these microservices, handling things like deployment, scaling, and inter-service communication.
 large-scale social media platform with features like user profiles, posts, images, video streaming, messaging, and real-time notifications.
 1. Containers (Docker, Kubernetes): Microservices for the platform, such as user profiles, posts, messaging, and notifications, are containerized using Docker and orchestrated using Kubernetes.
 2. Virtual Machines (EC2): Certain specialized services or third-party applications might still be running on EC2 instances.
