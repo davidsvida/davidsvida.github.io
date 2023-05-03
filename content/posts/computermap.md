@@ -19,6 +19,9 @@ UseHugoToc: false
 ShowPostNavLinks: false
 ---
 
+
+
+
 ## Computer
 
 A computer consist of hardware and software

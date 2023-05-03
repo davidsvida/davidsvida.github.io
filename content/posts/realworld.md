@@ -2,10 +2,6 @@
 title: "Realworld"
 date: 2023-05-01
 description: "Enterprise Full Stack Applicaitons"
-
-
-
-
 showToc: false
 TocOpen: false
 draft: false
@@ -23,6 +19,9 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
+
+
+
 ## Inspo
 
 -   [**reactioncommerce / reaction:**](https://github.com/reactioncommerce/reaction) An API-first, headless commerce platform built using Node.js, React, and GraphQL. This would be a good choice if you're interested in JavaScript, especially in a full-stack JavaScript environment, and want to learn more about GraphQL and the concept of headless commerce.

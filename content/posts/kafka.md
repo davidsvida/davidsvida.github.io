@@ -18,6 +18,12 @@ UseHugoToc: false
 ShowPostNavLinks: false
 
 ---
+
+
+
+
+
+
 What is Kafka?
 
 {{< youtube j9CDZm0Glc >}}

@@ -18,6 +18,9 @@ UseHugoToc: false
 ShowPostNavLinks: false
 ---
 
+
+
+
 ## What is cloud computing
 
 Cloud computing refers to the delivery of computing services over the internet, including servers, storage, databases, networking, software, analytics, and intelligence.

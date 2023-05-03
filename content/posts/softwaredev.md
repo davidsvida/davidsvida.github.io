@@ -18,6 +18,9 @@ UseHugoToc: false
 ShowPostNavLinks: false
 ---
 
+
+
+
 ## What makes up Software Development
 
 - Mobile app development: Developing applications for mobile devices such as smartphones and tablets. This involves writing code for iOS or Android platforms, or using cross-platform frameworks such as React Native or Flutter.

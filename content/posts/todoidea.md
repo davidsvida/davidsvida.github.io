@@ -3,9 +3,6 @@ title: "Todo App"
 date: 2023-05-01
 author: "David Cepeda"
 description: "An application where I use AI to filter todo"
-
-
-
 showToc: false
 TocOpen: false
 draft: false
@@ -21,6 +18,9 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
+
+
+
 
 ### Example
 [GPT-3 Powered Todo List](https://twitter.com/falkoj/status/1512795508384964612?s=21)

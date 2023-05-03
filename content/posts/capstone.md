@@ -1,7 +1,6 @@
 ---
-title: "Realworld"
-date: 2023-05-01
-description: "Enterprise Full Stack Applicaitons"
+title: "University Capstone Project"
+date: 2023-05-03
 showToc: false
 TocOpen: false
 draft: false

@@ -18,6 +18,8 @@ UseHugoToc: false
 ShowPostNavLinks: false
 ---
 
+
+
 ## App Tech
 
 If I were to build an app startup, this is the tech I would use

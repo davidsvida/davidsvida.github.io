@@ -18,6 +18,10 @@ UseHugoToc: false
 ShowPostNavLinks: false
 ---
 
+
+
+
+
 ## Future 
 
 I take a futuristic standpoint in this post. Consider every sentence where I use the word "will" - as in, has not happened yet. 
