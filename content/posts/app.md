@@ -110,7 +110,7 @@ e-commerce platform that offers product listings, shopping cart functionality, s
 
 8. **NoSQL database (DynamoDB):** DynamoDB will be used for data that doesn't fit neatly into a relational model, like the shopping cart data, which might contain different numbers and types of items for each user.
 
-9. **In-memory database (Redis):** Redis will store session data to keep users logged in across multiple servers and cache frequently-accessed data to reduce
+9. **In-memory database (Redis):** Redis will store session data to keep users logged in across multiple servers and cache frequently-accessed data to reduce  the load on our main databases. It can also be used to implement rate limiting and to store real-time analytics data. By keeping this data in memory, we can access it much faster than if it were stored on disk, which is critical for high-performance web applications like an e-commerce platform.
 
 10. **Big Data Processing (Apache Hadoop or Spark):** These tools will be used to process large amounts of data for analytics, like identifying buying trends or generating reports.
 
