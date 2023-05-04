@@ -13,7 +13,7 @@ comments: false
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: true
-hideSummary: false
+hideSummary: true
 searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true

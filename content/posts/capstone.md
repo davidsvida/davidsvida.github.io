@@ -9,7 +9,7 @@ comments: false
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: true
-hideSummary: false
+hideSummary: true
 searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
@@ -18,6 +18,10 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
+
+
+
+
 ## Project 
 
 As of now, I plan for this to be an e-commerce site. Exactly what I will do in regards to cloud computing is to be determined 

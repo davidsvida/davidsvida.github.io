@@ -25,4 +25,11 @@ ShowPostNavLinks: false
 
 
 Prompt Engineering 
+
+---
+## Will it take my job
+
+I like this question a lot. I think what chatGPT will do is create more new and creative jobs. If a machine can do it, why do we not let a machine do it and stick to the things that humans can do? - creative thinking, rationality, etc. 
+
+
 ---
