@@ -2,6 +2,7 @@
 title: "Architectures"
 date: 2023-04-30
 description: "Exploring Software Architectures"
+weight: 5
 showToc: false
 TocOpen: false
 draft: false

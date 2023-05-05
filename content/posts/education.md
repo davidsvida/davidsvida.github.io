@@ -1,6 +1,7 @@
 ---
 title: "Education"
 date: 2023-04-30
+weight: 2
 showToc: false
 TocOpen: false
 draft: false
