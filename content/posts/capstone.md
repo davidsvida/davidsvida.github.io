@@ -1,5 +1,5 @@
 ---
-title: "University Capstone Project"
+title: "Capstone Project"
 date: 2023-05-03
 showToc: false
 TocOpen: false
@@ -24,6 +24,8 @@ UseHugoToc: false
 
 ## Project 
 
-As of now, I plan for this to be an e-commerce site. Exactly what I will do in regards to cloud computing is to be determined 
+I plan for this to be an e-commerce site. Exactly what I will **do** in regards to cloud computing is to be determined.
 
---- 
+Capstone Proposal [pdf](https://drive.google.com/file/d/1Rcn6qeFZOUa9Sq3wkDZB62CjCraWIxdX/view)
+
+---
