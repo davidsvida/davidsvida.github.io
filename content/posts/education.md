@@ -49,6 +49,8 @@ Hugo is the world’s fastest framework for building websites
 ---
 Youtube Script: 
 
+A quick advisor before I start the video, none of this would have been possible without my amazing parents who supported me and allowed me to live such an amazing life. I am fortunate to be supported financially to do anything I put my mind to. This is due to the fact that my parents immigrated to the USA from Mexico so that their kids would have the opportunities that come with being born in America. Ok, now let the video start 
+
 What is education?
 
 According to the Oxford Dictionary, education is defined as “the process of receiving or giving **systematic** instruction, especially at a school or university. 
