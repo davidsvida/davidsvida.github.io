@@ -18,7 +18,9 @@ ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ShowPostNavLinks: false
 ---
-A quick video explanation:
+The video serves as a guide as to how I advanced so fast in my educational career and my overall thoughts on education. 
+
+[Link](https://www.youtube.com/watch?v=o5vp4Tk6vd0)
 
 {{< youtube o5vp4Tk6vd0 >}}
 
