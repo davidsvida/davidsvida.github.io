@@ -31,4 +31,5 @@ Be the one who goes first
 Introduce yourself first, help a stranger first, say hello first, 
 
 because life rewards those who go first, those who initiate and not those who wait for others 
+
 ---
