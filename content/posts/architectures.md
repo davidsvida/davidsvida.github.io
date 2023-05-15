@@ -22,7 +22,7 @@ ShowPostNavLinks: false
 
 I like to group architectures into 2 groups: Coupled architectures and Decoupled architectures. 
 
-A decoupled coupled architecture is one in which an applications components are weakly associated with each other. Coupled would be the opposite. 
+A decoupled architecture is one in which an applications components are weakly associated with each other. Coupled would be the opposite. 
 
 ---
 ### Coupled architectures
@@ -31,7 +31,7 @@ A decoupled coupled architecture is one in which an applications components are 
 
 ### Decoupled architectures
 
--   [Microservices architecture](https://davidsvida.github.io/posts/microservices/)
+-   [Microservices architecture](https://davidinsider.com/posts/microservices/)
 -   Event-driven architecture
 -   Service-oriented architecture
 
@@ -74,5 +74,9 @@ Common hybrid architectures include
 -   microservices and event-driven
 -   microservices and service-oriented
 -   monolithic and microservices
+---
+
+## Check out this article I made on system design! 
+-   [System design, explained](https://davidinsider.com/posts/systemDesign/)
 
 
