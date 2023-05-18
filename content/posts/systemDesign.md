@@ -11,6 +11,7 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: true
 hideSummary: true
+seachHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowWordCount: true

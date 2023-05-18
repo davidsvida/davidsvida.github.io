@@ -68,16 +68,16 @@ params:
         Content:  My name is David Cepeda. I love math and science, and I enjoy traveling and experiencing new things.
            
     socialIcons:
-        - name: ycombinator
-          url: "https://news.ycombinator.com/user?id=davidsvida"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/davidcepeda05/"
         - name: youtube
           url: "https://www.youtube.com/@davidsvida679"
         - name: github
           url: "https://github.com/davidsvida"
         - name: other 
           url: "google.com"
-        - name: linkedin
-          url: "https://www.linkedin.com/in/davidcepeda05/"
+        - name: ycombinator
+          url: "https://news.ycombinator.com/user?id=davidsvida"
 
 
     # label:
@@ -99,12 +99,12 @@ params:
 
     fuseOpts:
         isCaseSensitive: false
-        shouldSort: true
+        shouldSort: false
         location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
+        distance: 100
+        threshold: 0.6
+        minMatchCharLength: 2
+        keys: ["title", "summary", "content"]
 
 markup:
     goldmark:

@@ -5,6 +5,7 @@ showToc: false
 TocOpen: false
 draft: true
 hidemeta: false
+seachHidden: true
 comments: false
 disableHLJS: true # to disable highlightjs
 disableShare: false
