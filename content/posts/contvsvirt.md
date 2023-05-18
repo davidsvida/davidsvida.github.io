@@ -6,6 +6,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+weight: 1
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: true

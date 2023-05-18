@@ -2,7 +2,7 @@
 title: "Quotes"
 date: 2023-05-01
 description: "Some of my favorite quotes"
-weight: 1
+weight: 5
 showToc: false
 TocOpen: false
 draft: false
@@ -19,6 +19,9 @@ ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ShowPostNavLinks: false
 ---
+
+
+
 ### Problem Solving 
 **If I had an hour to solve a problem, I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions**
 

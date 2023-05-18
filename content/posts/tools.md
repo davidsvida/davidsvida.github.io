@@ -1,5 +1,5 @@
 ---
-title: "Codebase Diagram"
+title: "Tools"
 date: 2023-04-30
 description: "From gothinkster/realworld/"
 showToc: false
@@ -19,10 +19,8 @@ UseHugoToc: false
 ShowPostNavLinks: false
 ---
 
-# Codebase Diagram
+## Interactive Codebase Diagram
 
-## Interactive Diagram
-
-[Visualization](https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=gothinkster%2Frealworld)
+https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=gothinkster%2Frealworld
 
 ---

@@ -1,10 +1,9 @@
 ---
 title: "Capstone Project"
 date: 2023-05-03
-weight: 3
 showToc: false
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 disableHLJS: true # to disable highlightjs

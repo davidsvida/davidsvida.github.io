@@ -5,7 +5,7 @@ author: "David Cepeda"
 description: "An application where I use AI to filter todo"
 showToc: false
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 disableHLJS: true # to disable highlightjs

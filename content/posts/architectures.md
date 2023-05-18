@@ -2,7 +2,7 @@
 title: "Architectures"
 date: 2023-04-30
 description: "Exploring Software Architectures"
-weight: 5
+weight: 3
 showToc: false
 TocOpen: false
 draft: false
@@ -76,7 +76,6 @@ Common hybrid architectures include
 -   monolithic and microservices
 ---
 
-## Check out this article I made on system design! 
--   [System design, explained](https://davidinsider.com/posts/systemDesign/)
+
 
 

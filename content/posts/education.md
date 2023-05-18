@@ -1,7 +1,7 @@
 ---
-title: "Education"
+title: "myEducation"
 date: 2023-04-30
-weight: 2
+weight: 6
 showToc: false
 TocOpen: false
 draft: false
@@ -20,7 +20,7 @@ ShowPostNavLinks: false
 ---
 The video serves as a guide as to how I advanced so fast in my educational career and my overall thoughts on education. 
 
-[Link](https://www.youtube.com/watch?v=o5vp4Tk6vd0)
+https://www.youtube.com/watch?v=o5vp4Tk6vd0
 
 {{< youtube o5vp4Tk6vd0 >}}
 

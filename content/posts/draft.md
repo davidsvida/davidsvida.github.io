@@ -4,7 +4,7 @@ date: 2023-04-30
 description: "Where I write ideas for things I want to learn"
 showToc: false
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 disableHLJS: true # to disable highlightjs
