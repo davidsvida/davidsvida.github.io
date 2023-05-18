@@ -4,7 +4,8 @@ date: 2023-04-30
 description: "A template"
 showToc: false
 TocOpen: false
-draft: false
+draft: true
+searchHidden: true
 hidemeta: false
 comments: false
 disableHLJS: true # to disable highlightjs
