@@ -99,11 +99,11 @@ params:
 
     fuseOpts:
         isCaseSensitive: false
-        shouldSort: false
+        shouldSort: true
         location: 0
         distance: 100
-        threshold: 0.6
-        minMatchCharLength: 2
+        threshold: 0.3
+        minMatchCharLength: 3
         keys: ["title", "summary", "content"]
 
 markup:
