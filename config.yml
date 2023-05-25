@@ -72,10 +72,8 @@ params:
           url: "https://www.linkedin.com/in/davidcepeda05/"
         - name: youtube
           url: "https://www.youtube.com/@davidsvida679"
-        - name: github
-          url: "https://github.com/davidsvida"
         - name: other 
-          url: "google.com"
+          url: "https://docs.google.com/document/d/1i2J1ep5MFIYqG-mAg1iILxIVgpexzTRe/edit?usp=sharing&ouid=115397708487874535932&rtpof=true&sd=true"
         - name: ycombinator
           url: "https://news.ycombinator.com/user?id=davidsvida"
 
