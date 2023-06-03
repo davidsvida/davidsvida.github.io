@@ -1,7 +1,6 @@
 ---
 title: "Map of Computer Science"
 date: 2023-05-02
-description: "Credits to DomainOfScience"
 showToc: false
 TocOpen: false
 draft: true

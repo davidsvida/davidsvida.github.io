@@ -26,6 +26,9 @@ ShowPostNavLinks: false
 
 Cloud computing refers to the delivery of computing services over the internet, including servers, storage, databases, networking, software, analytics, and intelligence.
 
+{{< youtube i9x0UO8MY0g >}}
+
+
 ---
 ## Cloud Computing Models 
 
@@ -56,9 +59,9 @@ Cloud native applications are applications that are built and designed to levera
 
 1. **What is the difference between cloud-based and cloud-native applications?**
 
-   Cloud-based applications are simply hosted on a cloud infrastructure. However, cloud-native applications are not only hosted on the cloud but also specifically designed to leverage the cloud's unique properties.
+   Cloud-based applications are only hosted on a cloud infrastructure. However, cloud-native applications are not only hosted on the cloud but also specifically designed to leverage the cloud's unique properties.
 
-2. **Why should businesses consider moving to cloud-native applications?**
+2. **Why should my business consider moving to cloud-native applications?**
 
    Cloud-native applications provide numerous benefits such as faster time to market, improved scalability, and reduced operational costs. These attributes make them an excellent choice for businesses looking to stay competitive in today's digital landscape.
 
@@ -66,8 +69,10 @@ Cloud native applications are applications that are built and designed to levera
 
    Developers need a strong understanding of cloud computing concepts, experience with microservices architecture, knowledge of container technologies like Docker and Kubernetes, and familiarity with DevOps practices.
 
-4. **What skills are the most valuable cloud computing skill**
+4. **What skills are the most valuable for cloud computing**
 
-   My answer the this questions would be Cloud-native development - As more applications are developed specifically for the cloud, cloud engineers will need to have a deep understanding of cloud-native development frameworks and tools, such as Kubernetes, Docker, and serverless computing.
+   My answer the this questions would be Cloud-native development - since more and more applications are being developed specifically for the cloud, cloud engineers will need to have a deep understanding of cloud-native development frameworks and tools, such as Kubernetes, Docker, and serverless computing.
+
+
 
 

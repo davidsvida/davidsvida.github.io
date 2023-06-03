@@ -1,5 +1,5 @@
 ---
-title: "myEducation"
+title: "Education"
 date: 2023-04-30
 weight: 6
 showToc: false

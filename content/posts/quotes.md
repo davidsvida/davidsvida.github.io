@@ -1,7 +1,6 @@
 ---
 title: "Quotes"
 date: 2023-05-01
-description: "Some of my favorite quotes"
 weight: 5
 showToc: false
 TocOpen: false
@@ -20,19 +19,26 @@ UseHugoToc: false
 ShowPostNavLinks: false
 ---
 
-
-
-### Problem Solving 
-**If I had an hour to solve a problem, I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions**
-
-![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9O1E3G2sDDMojDmMvMX2h9EloPdjg3o9k-A&usqp=CAU#center)
+If I had an hour to solve a problem, I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions - Einstein
 
 ---
-### To do so
-Be the one who goes first 
 
-Introduce yourself first, help a stranger first, say hello first, 
+Be the one who goes first; Introduce yourself first, help a stranger first, say hello first, because life rewards those who go first; those who initiate and not those who wait for others. - Unknown  
 
-because life rewards those who go first, those who initiate and not those who wait for others 
+---
+
+Stand on the shoulders of giants - Sir Isaac Newton 
+
+---
+
+Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid. - Unknown
+
+---
+
+Every child is an artist. The challenge is staying an artist when you grow up. - Pablo Picasso
+
+---
+
+Pleasure in the job puts perfection in the work. - Aristotle
 
 ---

@@ -1,7 +1,6 @@
 ---
-title: "Youtube Conent"
+title: "Youtube Favorite Creators"
 date: 2023-05-01
-description: "Some of my favorite stuff on youtube."
 
 
 

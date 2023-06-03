@@ -1,7 +1,6 @@
 ---
 title: "Tools"
 date: 2023-04-30
-description: "From gothinkster/realworld/"
 showToc: false
 TocOpen: false
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "App"
+title: "Best Tech Stack"
 date: 2023-05-03
 showToc: true
 TocOpen: true
@@ -23,7 +23,7 @@ ShowPostNavLinks: false
 
 ## App Tech
 
-If I were to build an app startup, this is the tech I would use
+If I were to build an application, this is the tech I would use
 
 1. **Compute**
     - Containers: Docker, Kubernetes
