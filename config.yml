@@ -65,7 +65,7 @@ params:
 
     homeInfoParams:
         Title: "Hi \U0001F32E"
-        Content:  My name is David Cepeda. I love math and science, and I enjoy traveling and experiencing new things.
+        Content:  My name is David Cepeda and this is my blog website. I love math and science, and I enjoy traveling and experiencing new things.
            
     socialIcons:
         - name: linkedin
