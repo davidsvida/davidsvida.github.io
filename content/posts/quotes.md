@@ -1,7 +1,6 @@
 ---
 title: "Quotes"
 date: 2023-05-01
-weight: 5
 showToc: false
 TocOpen: false
 draft: false

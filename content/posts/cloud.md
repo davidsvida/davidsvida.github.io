@@ -4,7 +4,6 @@ date: 2023-04-30
 showToc: false
 TocOpen: false
 draft: false
-weight: 4
 hidemeta: false
 comments: false
 disableHLJS: true # to disable highlightjs
