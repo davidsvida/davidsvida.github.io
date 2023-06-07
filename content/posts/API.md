@@ -1,9 +1,11 @@
 ---
-title: "Tools"
+title: "To be Determined"
 date: 2023-04-30
+description: "A template"
 showToc: false
 TocOpen: false
-draft: false
+draft: true
+searchHidden: true
 hidemeta: false
 comments: false
 disableHLJS: true # to disable highlightjs
@@ -18,14 +20,6 @@ UseHugoToc: false
 ShowPostNavLinks: false
 ---
 
-## Interactive Codebase Diagram
-
-https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=gothinkster%2Frealworld
+{{< youtube 4vLxWqE94l4 >}}
 
 ---
-## Stack Overflow Survey 
-
-https://insights.stackoverflow.com/survey
----
-
-

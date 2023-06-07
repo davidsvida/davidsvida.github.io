@@ -18,12 +18,10 @@ ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ShowPostNavLinks: false
 ---
-A programming paradigm is a way to classify programming languages and these languages are split into two components. 
 
-1. Semantics (function) - refers to the meaning behind the code, such as what a particular command or function does. 
-2. Syntax (form) - refers to the rules and structure of a programming language, such as how code is written and formatted.
+A programming paradigm is a way to classify programming languages.
 
-*Semantics and Syntax usually define programming languages*
+---
 
 ## Paradigms
 
@@ -35,12 +33,14 @@ A programming paradigm is a way to classify programming languages and these lang
     * logic 
     * reactive 
 
+---
 ### Imperative programming
  This paradigm involves commands for the computer to perform actions. It focuses on describing how a program operates.
 
 * procedural: relies on a sequence of steps to solve a problem (C, Pascal, and FORTRAN)
 * object-oriented: uses 'objects' (instances of classes) which are organized around data and behavior. (Python, Java, and C++)
 
+---
 
 ### Declarative programming
 This paradigm expresses the logic of a computation without describing its control flow. It focuses on what the program should accomplish.
@@ -49,7 +49,7 @@ This paradigm expresses the logic of a computation without describing its contro
 * logic: a set of logical statements (system of facts and rules), and the execution engine will try to make these statements true in which this process could possibly derive new facts (Prolog)
 * reactive: allows for efficient execution of parallel tasks and manages back-pressure (when the system is over-stressed with requests). Good for non-blocking, event-driven apps (ReactJS, RXJava, and Akka)
 
-
+---
 
 
 <h3 style="text-align: center">Please note that these paradigms are not mutually exclusive. Many modern programming languages support multiple paradigms</h3>

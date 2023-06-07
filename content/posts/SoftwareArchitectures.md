@@ -1,7 +1,6 @@
 ---
-title: "Architectures"
+title: "Software Architectures"
 date: 2023-04-30
-weight: 3
 showToc: false
 TocOpen: false
 draft: false
