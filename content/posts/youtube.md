@@ -50,3 +50,7 @@ A journalist who I think makes good, entertaining work
 An american mass media company who makes interesting videos 
 -   https://www.youtube.com/@Vox
 ---
+**Good Work**
+
+Funny and unique content that talks about work
+-   https://www.youtube.com/@GoodWorkMB
