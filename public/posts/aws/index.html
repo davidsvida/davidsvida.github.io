@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>AWS | David</title>
+<meta name="keywords" content="">
+<meta name="description" content="Compute AWS 5 main computing services
+Amazon Elastic Compute Cloud (EC2) AWS Lambda Amazon Elastic Container Service (ECS) Amazon Elastic Kubernetes Service (EKS) Amazon Elastic Beanstalk All of these services run on EC2 but are configured to certain needs.
+EC2:
+A virtual server where you can run applications and host services. This is the most basic, flexible, and configurable service that Amazon provides. Choose EC2 if AWS has no other service for your needs or if you want to manage your infrastructure Lambda:">
+<meta name="author" content="">
+<link rel="canonical" href="https://davidinsider.com/posts/aws/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7140587df96a2b1a49eb723fa7063dc0c641a6cb638f3140e8d3beb4deae4f5c.css" integrity="sha256-cUBYfflqKxpJ63I/pwY9wMZBpstjjzFA6NO&#43;tN6uT1w=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://davidinsider.com/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://davidinsider.com/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://davidinsider.com/favicon/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://davidinsider.com/favicon/apple-touch-icon.png">
+<link rel="mask-icon" href="https://davidinsider.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C82WSJW7GT"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-C82WSJW7GT', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="AWS" />
+<meta property="og:description" content="Compute AWS 5 main computing services
+Amazon Elastic Compute Cloud (EC2) AWS Lambda Amazon Elastic Container Service (ECS) Amazon Elastic Kubernetes Service (EKS) Amazon Elastic Beanstalk All of these services run on EC2 but are configured to certain needs.
+EC2:
+A virtual server where you can run applications and host services. This is the most basic, flexible, and configurable service that Amazon provides. Choose EC2 if AWS has no other service for your needs or if you want to manage your infrastructure Lambda:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://davidinsider.com/posts/aws/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-06-02T00:00:00+00:00" /><meta property="og:site_name" content="David" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AWS"/>
+<meta name="twitter:description" content="Compute AWS 5 main computing services
+Amazon Elastic Compute Cloud (EC2) AWS Lambda Amazon Elastic Container Service (ECS) Amazon Elastic Kubernetes Service (EKS) Amazon Elastic Beanstalk All of these services run on EC2 but are configured to certain needs.
+EC2:
+A virtual server where you can run applications and host services. This is the most basic, flexible, and configurable service that Amazon provides. Choose EC2 if AWS has no other service for your needs or if you want to manage your infrastructure Lambda:"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Posts",
+      "item": "https://davidinsider.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "AWS",
+      "item": "https://davidinsider.com/posts/aws/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "AWS",
+  "name": "AWS",
+  "description": "Compute AWS 5 main computing services\nAmazon Elastic Compute Cloud (EC2) AWS Lambda Amazon Elastic Container Service (ECS) Amazon Elastic Kubernetes Service (EKS) Amazon Elastic Beanstalk All of these services run on EC2 but are configured to certain needs.\nEC2:\nA virtual server where you can run applications and host services. This is the most basic, flexible, and configurable service that Amazon provides. Choose EC2 if AWS has no other service for your needs or if you want to manage your infrastructure Lambda:",
+  "keywords": [
+    
+  ],
+  "articleBody": " Compute AWS 5 main computing services\nAmazon Elastic Compute Cloud (EC2) AWS Lambda Amazon Elastic Container Service (ECS) Amazon Elastic Kubernetes Service (EKS) Amazon Elastic Beanstalk All of these services run on EC2 but are configured to certain needs.\nEC2:\nA virtual server where you can run applications and host services. This is the most basic, flexible, and configurable service that Amazon provides. Choose EC2 if AWS has no other service for your needs or if you want to manage your infrastructure Lambda:\nEvent-driven computing service made for serverless applications You don’t need to manage any servers. Lets you write code in the form of Lambda Functions to perform a task in response to events. Known as a FaaS (Function as a Service) ECS:\nA container orchestration service that supports Docker containers Has good integration with other AWS Services ( IAM, CloudWatch, ELB) More managed than EC2 but less complex than EKS Amazon’s platform for cluster management infrastructure (like Kubernetes but simpler) EKS:\nThis is Amazon’s managed Kubernetes service. Kubernetes is an open source container orchestration platform Great choice to avoid AWS lock-in which makes it great for a multi-cloud strategy makes it easy to run Kubernetes on AWS without needing to set up your own Kubernetes control plane or nodes. Elastic Beanstalk:\nA platform as a service (PaaS) that makes it easy to create applications in multiple languages Automatically handles capacity provisioning, load balancing, and application health monitoring. Easiest and simplest Solution Storage AWS 5 main storage services\nAmazon Simple Storage Service (S3) Amazon Elastic Block Store (EBS) Amazon Elastic File System (EFS) Amazon Glacier AWS Storage Gateway All of these services, except for Storage Gateway, run on S3 but are configured to certain needs.\nS3:\nA scalable object storage service for data archiving and backup. Can store any type of objects which includes data lakes, and/or big data analytics. S3 is often used as the data store for cloud-native applications, as well as for backups and big data projects. Data is organized into buckets and identified within each bucket by a unique, user-assigned key. Provides features like lifecycle management, encryption, and a robust permissions model. EBS:\nA block storage service designed for use with Amazon EC2 instances. Particularly good for databases or any workload that requires frequent reads/writes to storage. Can be attached to an EC2 instance and used like a physical hard drive. EFS:\nManaged file storage service that makes it easy to set up and scale file storage in the Amazon Cloud. EFS is designed to be used with EC2 instances, and multiple instances can connect to the system at once. Good for applications that require shared access to files and require a file system interface and file system semantics. Glacier:\nA secure, durable, and low-cost storage service for data archiving and long-term backup. Designed to be really durable Used to move infrequently accessed data off to a low-cost storage service. Storage Gateway:\nA hybrid cloud service that allows on-premises applications to access virtually unlimited cloud storage with the AWS cloud storage Also good for local caching for low-latency access to hot data, then sync to AWS for durable storage. Database AWS 5 main database services\nAmazon Relational Database Service (RDS) Amazon DynamoDB Amazon Redshift Amazon ElastiCache Amazon Neptune RDS:\nManaged relational database service that supports several database engines (MySQL, PostgreSQL) Automatically takes care of routine database tasks Suited for applications that require complex queries and transaction capabilities. DynamoDB:\nA NoSQL database service for applications that need high-performance at any scale. Has built-in security, backup and restore, and in-memory caching for internet-scale applications Supports both key-value and document data models Redshift:\nA fully managed, petabyte-scale data warehousing service. Used in conjunction with data analytics tools to allow analytical queries involving large datasets. It has fast query due to columnar storage and parallel queries across multiple nodes ElastiCache:\nA fully managed in-memory data store service improves the speed of web applications by allowing you to retrieve information from fast, managed, in-memory caches Good for caching, session storage, gaming, geospatial services, real-time analytics, and queueing. Neptune:\nA managed graph database service For applications that work with highly connected databases Could be used to create knowledge graphs, fraud detection systems, recommendation engines, etc. Network AWS 5 main network services\nAmazon Virtual Private Cloud (VPC) Amazon Route 53 AWS Direct Connect Elastic Load Balancer (ELB) Amazon API Gateway VPC:\nProvides an isolated virtual network where you can launch AWS resources to the AWS Cloud. You can define your own IP address range, create subnets, configure route tables, and network gateways. Has both IPv6 and IPv4 for most resources. Route 53:\nA Domain Name System (DNS) web service. It’s has domain registration, domain routing, and health checking of resources within your environment. It connects user requests to infrastructure running in AWS, like EC2 instances, or S3 buckets. Also has domain registration services that allows you to transfer or register domain names. Direct Connect:\nEstablishes a dedicated network connection from your premises to AWS. In comparison to internet-based connections it can it reduces your network costs, increases bandwidth throughput, and provides just a more consistent network experience. ELB:\nA load balancer for AWS targets (EC2, Containers, IP addresses, Lambda functions) It ensures the delivery of the right amount of traffic to each target based on the capacity that you set. Has three different load balancers: Application Load Balancer, Network Load Balancer, and Classic Load Balancer. API Gateway:\nA service for APIs. Handles all the tasks (traffic management, authorization and access control, monitoring) involved in accepting and processing thousands of concurrent API calls. Essentially the “front door” for applications in your backend. Security AWS 5 main security services\nAWS Identity and Access Management (IAM) AWS Certificate Manager (ACM) AWS Shield AWS Key Management Service (KMS) Amazon Cognito IAM:\nAllows you to securely manage access to AWS services and resources. You can create users, groups, and permissions that define which actions are allowed and denied for each. ACM:\nService for creating, manages, and deploying SSL/TLS certificates. Shield:\nA Distributed Denial of Service (DDoS) protection service Available in two tiers: Standard and Advanced. KMS:\nCreate and control the encryption keys Cognito:\nProvides authentication, authorization, and user management Sign in directly with a user name and password or integrates with Facebook, Google, Microsoft, via SAML Monitoring AWS 5 main monitoring services\nAmazon CloudWatch AWS X-Ray AWS CloudTrail Amazon Inspector AWS Trusted Advisor CloudWatch:\nMonitoring service for AWS resources Collects and track logs, metrics, and events. X-Ray:\nProvides tools to view, filter, and gain insights about the requests that your application serves. Helps you understand how your application is performing Shows a map of your application’s underlying components. CloudTrail:\nHelps in compliance, governance, risk auditing, and operational auditing. Provides event history of your AWS account activity (includes actions made from AWS Management Console, AWS SDKs, command line tools) Inspector:\nA threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect your AWS accounts and workloads. Uses machine learning, anomaly detection, and integrated threat intelligence to identify and prioritize potential threats. Trusted Advisor:\nA resource that can help you reduce cost, increase performance, and improve security by optimizing your AWS environment Provides real time guidance to help you provision your resources. There are many other services provided by AWS across various domains, like IoT, Machine Learning, etc., which are not covered here.\n",
+  "wordCount" : "1228",
+  "inLanguage": "en",
+  "datePublished": "2023-06-02T00:00:00Z",
+  "dateModified": "2023-06-02T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://davidinsider.com/posts/aws/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "David",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://davidinsider.com/favicon/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://davidinsider.com" accesskey="h" title="David (Alt + H)">David</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://davidinsider.com/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://davidinsider.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://davidinsider.com">Home</a>&nbsp;»&nbsp;<a href="https://davidinsider.com/posts/">Posts</a></div>
+    <h1 class="post-title">
+      AWS
+    </h1>
+    <div class="post-meta"><span title='2023-06-02 00:00:00 +0000 UTC'>June 2, 2023</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;1228 words
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#compute" aria-label="Compute">Compute</a></li>
+                <li>
+                    <a href="#storage" aria-label="Storage">Storage</a></li>
+                <li>
+                    <a href="#database" aria-label="Database">Database</a></li>
+                <li>
+                    <a href="#network" aria-label="Network">Network</a></li>
+                <li>
+                    <a href="#security" aria-label="Security">Security</a></li>
+                <li>
+                    <a href="#monitoring" aria-label="Monitoring">Monitoring</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/JIbIYCM48to" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="compute">Compute<a hidden class="anchor" aria-hidden="true" href="#compute">#</a></h2>
+<p>AWS 5 main computing services</p>
+<ol>
+<li>Amazon Elastic Compute Cloud (EC2)</li>
+<li>AWS Lambda</li>
+<li>Amazon Elastic Container Service (ECS)</li>
+<li>Amazon Elastic Kubernetes Service (EKS)</li>
+<li>Amazon Elastic Beanstalk</li>
+</ol>
+<p><em>All of these services run on EC2 but are configured to certain needs.</em></p>
+<p><strong>EC2:</strong></p>
+<ul>
+<li>A virtual server where you can run applications and host services.</li>
+<li>This is the most basic, flexible, and configurable service that Amazon provides.</li>
+<li>Choose EC2 if AWS has no other service for your needs or if you want to manage your infrastructure</li>
+</ul>
+<p><strong>Lambda:</strong></p>
+<ul>
+<li>Event-driven computing service made for serverless applications</li>
+<li>You don&rsquo;t need to manage any servers.</li>
+<li>Lets you write code in the form of <em>Lambda Functions</em> to perform a task in response to events.</li>
+<li>Known as a FaaS (Function as a Service)</li>
+</ul>
+<p><strong>ECS:</strong></p>
+<ul>
+<li>A container orchestration service that supports Docker containers</li>
+<li>Has good integration with other AWS Services ( IAM, CloudWatch, ELB)</li>
+<li>More managed than EC2 but less complex than EKS</li>
+<li>Amazon&rsquo;s platform for cluster management infrastructure (like Kubernetes but simpler)</li>
+</ul>
+<p><strong>EKS:</strong></p>
+<ul>
+<li>This is Amazon&rsquo;s managed Kubernetes service. Kubernetes is an open source container orchestration platform</li>
+<li>Great choice to avoid AWS lock-in which makes it great for a multi-cloud strategy</li>
+<li>makes it easy to run Kubernetes on AWS without needing to set up your own Kubernetes control plane or nodes.</li>
+</ul>
+<p><strong>Elastic Beanstalk:</strong></p>
+<ul>
+<li>A platform as a service (PaaS) that makes it easy to create applications in multiple languages</li>
+<li>Automatically handles capacity provisioning, load balancing, and application health monitoring.</li>
+<li>Easiest and simplest Solution</li>
+</ul>
+<hr>
+<h2 id="storage">Storage<a hidden class="anchor" aria-hidden="true" href="#storage">#</a></h2>
+<p>AWS 5 main storage services</p>
+<ol>
+<li>Amazon Simple Storage Service (S3)</li>
+<li>Amazon Elastic Block Store (EBS)</li>
+<li>Amazon Elastic File System (EFS)</li>
+<li>Amazon Glacier</li>
+<li>AWS Storage Gateway</li>
+</ol>
+<p><em>All of these services, except for Storage Gateway, run on S3 but are configured to certain needs.</em></p>
+<p><strong>S3:</strong></p>
+<ul>
+<li>A scalable object storage service for data archiving and backup.</li>
+<li>Can store any type of objects which includes data lakes, and/or big data analytics.</li>
+<li>S3 is often used as the data store for cloud-native applications, as well as for backups and big data projects.</li>
+<li>Data is organized into buckets and identified within each bucket by a unique, user-assigned key.</li>
+<li>Provides features like lifecycle management, encryption, and a robust permissions model.</li>
+</ul>
+<p><strong>EBS:</strong></p>
+<ul>
+<li>A block storage service designed for use with Amazon EC2 instances.</li>
+<li>Particularly good for databases or any workload that requires frequent reads/writes to storage.</li>
+<li>Can be attached to an EC2 instance and used like a physical hard drive.</li>
+</ul>
+<p><strong>EFS:</strong></p>
+<ul>
+<li>Managed file storage service that makes it easy to set up and scale file storage in the Amazon Cloud.</li>
+<li>EFS is designed to be used with EC2 instances, and multiple instances can connect to the system at once.</li>
+<li>Good for applications that require shared access to files and require a file system interface and file system semantics.</li>
+</ul>
+<p><strong>Glacier:</strong></p>
+<ul>
+<li>A secure, durable, and low-cost storage service for data archiving and long-term backup.</li>
+<li>Designed to be really durable</li>
+<li>Used to move infrequently accessed data off to a low-cost storage service.</li>
+</ul>
+<p><strong>Storage Gateway:</strong></p>
+<ul>
+<li>A hybrid cloud service that allows on-premises applications to access virtually unlimited cloud storage with the AWS cloud storage</li>
+<li>Also good for local caching for low-latency access to hot data, then sync to AWS for durable storage.</li>
+</ul>
+<hr>
+<h2 id="database">Database<a hidden class="anchor" aria-hidden="true" href="#database">#</a></h2>
+<p>AWS 5 main database services</p>
+<ol>
+<li>Amazon Relational Database Service (RDS)</li>
+<li>Amazon DynamoDB</li>
+<li>Amazon Redshift</li>
+<li>Amazon ElastiCache</li>
+<li>Amazon Neptune</li>
+</ol>
+<p><strong>RDS:</strong></p>
+<ul>
+<li>Managed relational database service that supports several database engines (MySQL, PostgreSQL)</li>
+<li>Automatically takes care of routine database tasks</li>
+<li>Suited for applications that require complex queries and transaction capabilities.</li>
+</ul>
+<p><strong>DynamoDB:</strong></p>
+<ul>
+<li>A NoSQL database service for applications that need high-performance at any scale.</li>
+<li>Has built-in security, backup and restore, and in-memory caching for internet-scale applications</li>
+<li>Supports both key-value and document data models</li>
+</ul>
+<p><strong>Redshift:</strong></p>
+<ul>
+<li>A fully managed, petabyte-scale data warehousing service.</li>
+<li>Used in conjunction with data analytics tools to allow analytical queries involving large datasets.</li>
+<li>It has fast query due to  columnar storage and parallel queries across multiple nodes</li>
+</ul>
+<p><strong>ElastiCache:</strong></p>
+<ul>
+<li>A fully managed in-memory data store service</li>
+<li>improves the speed of web applications by allowing you to retrieve information from fast, managed, in-memory caches</li>
+<li>Good for caching, session storage, gaming, geospatial services, real-time analytics, and queueing.</li>
+</ul>
+<p><strong>Neptune:</strong></p>
+<ul>
+<li>A managed graph database service</li>
+<li>For applications that work with highly connected databases</li>
+<li>Could be used to create knowledge graphs, fraud detection systems, recommendation engines, etc.</li>
+</ul>
+<hr>
+<h2 id="network">Network<a hidden class="anchor" aria-hidden="true" href="#network">#</a></h2>
+<p>AWS 5 main network services</p>
+<ol>
+<li>Amazon Virtual Private Cloud (VPC)</li>
+<li>Amazon Route 53</li>
+<li>AWS Direct Connect</li>
+<li>Elastic Load Balancer (ELB)</li>
+<li>Amazon API Gateway</li>
+</ol>
+<p><strong>VPC:</strong></p>
+<ul>
+<li>Provides an isolated virtual network where you can launch AWS resources to the AWS Cloud.</li>
+<li>You can define your own IP address range, create subnets, configure route tables, and network gateways.</li>
+<li>Has both IPv6 and IPv4 for most resources.</li>
+</ul>
+<p><strong>Route 53:</strong></p>
+<ul>
+<li>A  Domain Name System (DNS) web service.</li>
+<li>It&rsquo;s has domain registration, domain routing, and health checking of resources within your environment.</li>
+<li>It connects user requests to infrastructure running in AWS, like EC2 instances, or S3 buckets.</li>
+<li>Also has domain registration services that allows you to transfer or register domain names.</li>
+</ul>
+<p><strong>Direct Connect:</strong></p>
+<ul>
+<li>Establishes a dedicated network connection from your premises to AWS.</li>
+<li>In comparison to internet-based connections it can it reduces your network costs, increases bandwidth throughput, and provides just a more consistent network experience.</li>
+</ul>
+<p><strong>ELB:</strong></p>
+<ul>
+<li>A load balancer for AWS targets (EC2, Containers, IP addresses, Lambda functions)</li>
+<li>It ensures the delivery of the right amount of traffic to each target based on the capacity that you set.</li>
+<li>Has three different load balancers: Application Load Balancer, Network Load Balancer, and Classic Load Balancer.</li>
+</ul>
+<p><strong>API Gateway:</strong></p>
+<ul>
+<li>A service for APIs.</li>
+<li>Handles all the tasks (traffic management, authorization and access control, monitoring) involved in accepting and processing thousands of concurrent API calls.</li>
+<li>Essentially the &ldquo;front door&rdquo; for applications in your backend.</li>
+</ul>
+<hr>
+<h2 id="security">Security<a hidden class="anchor" aria-hidden="true" href="#security">#</a></h2>
+<p>AWS 5 main security services</p>
+<ol>
+<li>AWS Identity and Access Management (IAM)</li>
+<li>AWS Certificate Manager (ACM)</li>
+<li>AWS Shield</li>
+<li>AWS Key Management Service (KMS)</li>
+<li>Amazon Cognito</li>
+</ol>
+<p><strong>IAM:</strong></p>
+<ul>
+<li>Allows you to securely manage access to AWS services and resources.</li>
+<li>You can create users, groups, and permissions that define which actions are allowed and denied for each.</li>
+</ul>
+<p><strong>ACM:</strong></p>
+<ul>
+<li>Service for creating, manages, and deploying SSL/TLS certificates.</li>
+</ul>
+<p><strong>Shield:</strong></p>
+<ul>
+<li>A Distributed Denial of Service (DDoS) protection service</li>
+<li>Available in two tiers: Standard and Advanced.</li>
+</ul>
+<p><strong>KMS:</strong></p>
+<ul>
+<li>Create and control the encryption keys</li>
+</ul>
+<p><strong>Cognito:</strong></p>
+<ul>
+<li>Provides authentication, authorization, and user management</li>
+<li>Sign in directly with a user name and password or integrates with Facebook, Google, Microsoft, via SAML</li>
+</ul>
+<hr>
+<h2 id="monitoring">Monitoring<a hidden class="anchor" aria-hidden="true" href="#monitoring">#</a></h2>
+<p>AWS 5 main monitoring services</p>
+<ol>
+<li>Amazon CloudWatch</li>
+<li>AWS X-Ray</li>
+<li>AWS CloudTrail</li>
+<li>Amazon Inspector</li>
+<li>AWS Trusted Advisor</li>
+</ol>
+<p><strong>CloudWatch:</strong></p>
+<ul>
+<li>Monitoring service for AWS resources</li>
+<li>Collects and track logs, metrics, and events.</li>
+</ul>
+<p><strong>X-Ray:</strong></p>
+<ul>
+<li>Provides tools to view, filter, and gain insights about the requests that your application serves.</li>
+<li>Helps you understand how your application is performing</li>
+<li>Shows a map of your application’s underlying components.</li>
+</ul>
+<p><strong>CloudTrail:</strong></p>
+<ul>
+<li>Helps in compliance, governance, risk auditing, and operational auditing.</li>
+<li>Provides event history of your AWS account activity (includes actions made from AWS Management Console, AWS SDKs, command line tools)</li>
+</ul>
+<p><strong>Inspector:</strong></p>
+<ul>
+<li>A threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect your AWS accounts and workloads.</li>
+<li>Uses machine learning, anomaly detection, and integrated threat intelligence to identify and prioritize potential threats.</li>
+</ul>
+<p><strong>Trusted Advisor:</strong></p>
+<ul>
+<li>A resource that can help you reduce cost, increase performance, and improve security by optimizing your AWS environment</li>
+<li>Provides real time guidance to help you provision your resources.</li>
+</ul>
+<hr>
+<p><strong>There are many other services provided by AWS across various domains, like IoT, Machine Learning, etc., which are not covered here.</strong></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://davidinsider.com">David</a></span>
+    <span>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

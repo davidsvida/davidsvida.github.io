@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Microservices | David</title>
+<meta name="keywords" content="">
+<meta name="description" content="What are microservices? Microservices are a software development approach in which applications are broken down into small, independent (micro)services that work together to provide a larger overall system.
+How do they work though? Each microservice is responsible for a specific capability and communicate with other microservices through API&rsquo;s or other lightweight messaging protocols.
+For example, let&rsquo;s say you have a user authentication service, a product catalog service, and a payment processing service.">
+<meta name="author" content="">
+<link rel="canonical" href="https://davidinsider.com/posts/microservices/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7140587df96a2b1a49eb723fa7063dc0c641a6cb638f3140e8d3beb4deae4f5c.css" integrity="sha256-cUBYfflqKxpJ63I/pwY9wMZBpstjjzFA6NO&#43;tN6uT1w=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://davidinsider.com/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://davidinsider.com/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://davidinsider.com/favicon/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://davidinsider.com/favicon/apple-touch-icon.png">
+<link rel="mask-icon" href="https://davidinsider.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C82WSJW7GT"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-C82WSJW7GT', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="Microservices" />
+<meta property="og:description" content="What are microservices? Microservices are a software development approach in which applications are broken down into small, independent (micro)services that work together to provide a larger overall system.
+How do they work though? Each microservice is responsible for a specific capability and communicate with other microservices through API&rsquo;s or other lightweight messaging protocols.
+For example, let&rsquo;s say you have a user authentication service, a product catalog service, and a payment processing service." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://davidinsider.com/posts/microservices/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-05-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-05-02T00:00:00+00:00" /><meta property="og:site_name" content="David" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Microservices"/>
+<meta name="twitter:description" content="What are microservices? Microservices are a software development approach in which applications are broken down into small, independent (micro)services that work together to provide a larger overall system.
+How do they work though? Each microservice is responsible for a specific capability and communicate with other microservices through API&rsquo;s or other lightweight messaging protocols.
+For example, let&rsquo;s say you have a user authentication service, a product catalog service, and a payment processing service."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Posts",
+      "item": "https://davidinsider.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Microservices",
+      "item": "https://davidinsider.com/posts/microservices/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Microservices",
+  "name": "Microservices",
+  "description": "What are microservices? Microservices are a software development approach in which applications are broken down into small, independent (micro)services that work together to provide a larger overall system.\nHow do they work though? Each microservice is responsible for a specific capability and communicate with other microservices through API\u0026rsquo;s or other lightweight messaging protocols.\nFor example, let\u0026rsquo;s say you have a user authentication service, a product catalog service, and a payment processing service.",
+  "keywords": [
+    
+  ],
+  "articleBody": " What are microservices? Microservices are a software development approach in which applications are broken down into small, independent (micro)services that work together to provide a larger overall system.\nHow do they work though? Each microservice is responsible for a specific capability and communicate with other microservices through API’s or other lightweight messaging protocols.\nFor example, let’s say you have a user authentication service, a product catalog service, and a payment processing service. Each of these services would be responsible for a specific function within the application and would communicate with each other through APIs or other lightweight messaging protocols\nHow do I use them in my app Identify Identify the different business functions of your application. Determine which functions can be broken down into smaller, independent services. Each microservice should be responsible for a single business function. Develope Develop each microservice independently. Each microservice should communicate with other microservices through APIs or other lightweight messaging protocols. Microservices can be developed using different programming languages, frameworks, and tools. Test Test each microservice independently. Test each microservice in combination with other microservices. Use automated testing tools to ensure that each microservice is functioning as expected. Deploy Deploy each microservice independently. Use containerization tools like Docker to package each microservice. Use orchestration tools like Kubernetes to manage and scale your microservices. Containerization Tools Containerization tools like Docker allow you to encapsulate each microservice within an isolated container, which includes all the required dependencies and runtime environment. By packaging microservices into individual containers, you can ensure consistent behavior across different stages of development, deployment, and production. Moreover, containerization helps in simplifying the management and scaling of complex systems, as each service can be updated, replaced, or scaled independently.\nOrchestration Tools Orchestration tools like Kubernetes play a crucial role in managing and scaling microservices. Kubernetes automates the deployment, scaling, and management of containerized applications, taking the burden of manual deployment and resource allocation off your shoulders. It ensures your services are always running in the most efficient manner possible, adjusting to traffic patterns and system needs dynamically.\nBenefits Developers can use different programming languages, frameworks, and tools for each microservice as needed, which can help improve development speed and agility. Microservices are designed to be highly modular and scalable, so that developers can easily add or remove services as needed to meet changing business requirements. Microservices can help improve fault tolerance and resilience, as failures in one microservice are less likely to affect the entire system Microservices can help reduce the complexity of large applications, as each service can be developed, tested, and deployed independently. Challenges Microservices can require additional effort to ensure that services are secure and protected from malicious attacks, which can increase development and testing time. Microservices can require additional overhead, such as the need for containerization and orchestration tools, which can increase development and deployment costs. Microservices can require additional effort to ensure that services are communicating effectively with each other, which can increase development and testing time. Example This will go through incorporating Docker and Kubernetes into a microservices architecture with the example of an e-commerce application.\nOur e-commerce application consists of several microservices, such as a product catalog service, a shopping cart service, and a payment service. Each microservice would be responsible for a specific function, and they would communicate with each other through APIs.\nContainerization with Docker: Docker can be used to package each microservice into a separate container. This involves creating a Dockerfile for each microservice which contains instructions for Docker about how to build an image for that microservice. For instance, the product catalog service might have a Dockerfile that specifies the base OS, the version of Python or Java to install, any dependencies like libraries or frameworks, and the code of the service itself. When this Dockerfile is built using the Docker build command, it results in a Docker image, which can then be run anywhere Docker is installed, ensuring consistent behavior across different environments.\nOrchestration with Kubernetes: Kubernetes comes in to help manage and scale these Docker containers. It can automatically distribute the load between containers, scale the services up and down based on traffic, and ensure high availability and fault tolerance. To use Kubernetes, you create configuration files, typically written in YAML, that define the desired state of your system - the services you want to run, how many replicas of each, how they should communicate, etc. Kubernetes then works to make the actual state of the system match the desired state. Let’s say your payment service is experiencing high traffic. If you’ve configured Kubernetes to auto-scale based on CPU usage or number of requests, it will automatically create more replicas of the payment service to handle the load. These replicas are distributed across different nodes (servers), ensuring that if one node goes down, the service can continue running on the others.\nLinking Docker and Kubernetes: Docker and Kubernetes work together seamlessly. Kubernetes can pull Docker images from a registry like Docker Hub or Google Container Registry, and then run those images as containers. In our e-commerce example, once the Docker images for the product catalog service, shopping cart service, and payment service have been pushed to a Docker registry, Kubernetes can pull those images and run them as separate services. Kubernetes ensures that these services can communicate with each other and scale independently. This way, Docker and Kubernetes can greatly simplify the deployment, management, and scaling of microservices in a complex application.\nWhen not to use microservices For example, if you’re developing a simple application or a prototype, microservices may add unnecessary complexity. Similarly, if your application doesn’t require a high level of scalability or fault tolerance, microservices may not be necessary. Additionally, microservices can add additional overhead, such as the need for containerization and orchestration tools, which can increase development and deployment costs. Ultimately, it’s up to developers to decide whether microservices are the right fit for their specific application and business requirements.\nVideo Microservices Explained in 5 Minutes Kubernetes vs. Docker ",
+  "wordCount" : "1001",
+  "inLanguage": "en",
+  "datePublished": "2023-05-02T00:00:00Z",
+  "dateModified": "2023-05-02T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://davidinsider.com/posts/microservices/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "David",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://davidinsider.com/favicon/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://davidinsider.com" accesskey="h" title="David (Alt + H)">David</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://davidinsider.com/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://davidinsider.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://davidinsider.com">Home</a>&nbsp;»&nbsp;<a href="https://davidinsider.com/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Microservices
+    </h1>
+    <div class="post-meta"><span title='2023-05-02 00:00:00 +0000 UTC'>May 2, 2023</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;1001 words
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#what-are-microservices" aria-label="What are microservices?">What are microservices?</a></li>
+                <li>
+                    <a href="#how-do-they-work-though" aria-label="How do they work though?">How do they work though?</a></li>
+                <li>
+                    <a href="#how-do-i-use-them-in-my-app" aria-label="How do I use them in my app">How do I use them in my app</a><ul>
+                        
+                <li>
+                    <a href="#identify" aria-label="Identify">Identify</a></li>
+                <li>
+                    <a href="#develope" aria-label="Develope">Develope</a></li>
+                <li>
+                    <a href="#test" aria-label="Test">Test</a></li>
+                <li>
+                    <a href="#deploy" aria-label="Deploy">Deploy</a></li></ul>
+                </li>
+                <li>
+                    <a href="#containerization-tools" aria-label="Containerization Tools">Containerization Tools</a></li>
+                <li>
+                    <a href="#orchestration-tools" aria-label="Orchestration Tools">Orchestration Tools</a></li>
+                <li>
+                    <a href="#benefits" aria-label="Benefits">Benefits</a></li>
+                <li>
+                    <a href="#challenges" aria-label="Challenges">Challenges</a></li>
+                <li>
+                    <a href="#example" aria-label="Example">Example</a></li>
+                <li>
+                    <a href="#when-not-to-use-microservices" aria-label="When not to use microservices">When not to use microservices</a></li>
+                <li>
+                    <a href="#video" aria-label="Video">Video</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/lL_j7ilk7rc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="what-are-microservices">What are microservices?<a hidden class="anchor" aria-hidden="true" href="#what-are-microservices">#</a></h2>
+<p>Microservices are a software development approach in which applications are broken down into small, independent (micro)services that work together to provide a larger overall system.</p>
+<hr>
+<h2 id="how-do-they-work-though">How do they work though?<a hidden class="anchor" aria-hidden="true" href="#how-do-they-work-though">#</a></h2>
+<p>Each microservice is responsible for a specific capability and communicate with other microservices through API&rsquo;s or other lightweight messaging protocols.</p>
+<p>For example, let&rsquo;s say you have a user authentication service, a product catalog service, and a payment processing service. Each of these services would be responsible for a specific function within the application and would communicate with each other through APIs or other lightweight messaging protocols</p>
+<hr>
+<h2 id="how-do-i-use-them-in-my-app">How do I use them in my app<a hidden class="anchor" aria-hidden="true" href="#how-do-i-use-them-in-my-app">#</a></h2>
+<h3 id="identify">Identify<a hidden class="anchor" aria-hidden="true" href="#identify">#</a></h3>
+<ul>
+<li>Identify the different business functions of your application.</li>
+<li>Determine which functions can be broken down into smaller, independent services.</li>
+<li>Each microservice should be responsible for a single business function.</li>
+</ul>
+<h3 id="develope">Develope<a hidden class="anchor" aria-hidden="true" href="#develope">#</a></h3>
+<ul>
+<li>Develop each microservice independently.</li>
+<li>Each microservice should communicate with other microservices through APIs or other lightweight messaging protocols.</li>
+<li>Microservices can be developed using different programming languages, frameworks, and tools.</li>
+</ul>
+<h3 id="test">Test<a hidden class="anchor" aria-hidden="true" href="#test">#</a></h3>
+<ul>
+<li>Test each microservice independently.</li>
+<li>Test each microservice in combination with other microservices.</li>
+<li>Use automated testing tools to ensure that each microservice is functioning as expected.</li>
+</ul>
+<h3 id="deploy">Deploy<a hidden class="anchor" aria-hidden="true" href="#deploy">#</a></h3>
+<ul>
+<li>Deploy each microservice independently.</li>
+<li>Use <strong>containerization</strong> tools like <strong>Docker</strong> to package each microservice.</li>
+<li>Use <strong>orchestration</strong> tools like <strong>Kubernetes</strong> to manage and scale your microservices.</li>
+</ul>
+<hr>
+<h2 id="containerization-tools">Containerization Tools<a hidden class="anchor" aria-hidden="true" href="#containerization-tools">#</a></h2>
+<p>Containerization tools like Docker allow you to encapsulate each microservice within an isolated container, which includes all the required dependencies and runtime environment. By packaging microservices into individual containers, you can ensure consistent behavior across different stages of development, deployment, and production. Moreover, containerization helps in simplifying the management and scaling of complex systems, as each service can be updated, replaced, or scaled independently.</p>
+<h2 id="orchestration-tools">Orchestration Tools<a hidden class="anchor" aria-hidden="true" href="#orchestration-tools">#</a></h2>
+<p>Orchestration tools like Kubernetes play a crucial role in managing and scaling microservices. Kubernetes automates the deployment, scaling, and management of containerized applications, taking the burden of manual deployment and resource allocation off your shoulders. It ensures your services are always running in the most efficient manner possible, adjusting to traffic patterns and system needs dynamically.</p>
+<hr>
+<h2 id="benefits">Benefits<a hidden class="anchor" aria-hidden="true" href="#benefits">#</a></h2>
+<ul>
+<li>Developers can use different programming languages, frameworks, and tools for each microservice as needed, which can help improve development speed and agility.</li>
+<li>Microservices are designed to be highly modular and scalable, so that developers can easily add or remove services as needed to meet changing business requirements.</li>
+<li>Microservices can help improve fault tolerance and resilience, as failures in one microservice are less likely to affect the entire system</li>
+<li>Microservices can help reduce the complexity of large applications, as each service can be developed, tested, and deployed independently.</li>
+</ul>
+<h2 id="challenges">Challenges<a hidden class="anchor" aria-hidden="true" href="#challenges">#</a></h2>
+<ul>
+<li>Microservices can require additional effort to ensure that services are secure and protected from malicious attacks, which can increase development and testing time.</li>
+<li>Microservices can require additional overhead, such as the need for containerization and orchestration tools, which can increase development and deployment costs.</li>
+<li>Microservices can require additional effort to ensure that services are communicating effectively with each other, which can increase development and testing time.</li>
+</ul>
+<hr>
+<h2 id="example">Example<a hidden class="anchor" aria-hidden="true" href="#example">#</a></h2>
+<p>This will go through incorporating Docker and Kubernetes into a microservices architecture with the example of an e-commerce application.</p>
+<p>Our e-commerce application consists of several microservices, such as a product catalog service, a shopping cart service, and a payment service. Each microservice would be responsible for a specific function, and they would communicate with each other through APIs.</p>
+<p><strong>Containerization with Docker:</strong> Docker can be used to package each microservice into a separate container. This involves creating a Dockerfile for each microservice which contains instructions for Docker about how to build an image for that microservice. For instance, the product catalog service might have a Dockerfile that specifies the base OS, the version of Python or Java to install, any dependencies like libraries or frameworks, and the code of the service itself. When this Dockerfile is built using the Docker build command, it results in a Docker image, which can then be run anywhere Docker is installed, ensuring consistent behavior across different environments.</p>
+<p><strong>Orchestration with Kubernetes:</strong> Kubernetes comes in to help manage and scale these Docker containers. It can automatically distribute the load between containers, scale the services up and down based on traffic, and ensure high availability and fault tolerance. To use Kubernetes, you create configuration files, typically written in YAML, that define the desired state of your system - the services you want to run, how many replicas of each, how they should communicate, etc. Kubernetes then works to make the actual state of the system match the desired state. Let&rsquo;s say your payment service is experiencing high traffic. If you&rsquo;ve configured Kubernetes to auto-scale based on CPU usage or number of requests, it will automatically create more replicas of the payment service to handle the load. These replicas are distributed across different nodes (servers), ensuring that if one node goes down, the service can continue running on the others.</p>
+<p><strong>Linking Docker and Kubernetes:</strong> Docker and Kubernetes work together seamlessly. Kubernetes can pull Docker images from a registry like Docker Hub or Google Container Registry, and then run those images as containers. In our e-commerce example, once the Docker images for the product catalog service, shopping cart service, and payment service have been pushed to a Docker registry, Kubernetes can pull those images and run them as separate services. Kubernetes ensures that these services can communicate with each other and scale independently. This way, Docker and Kubernetes can greatly simplify the deployment, management, and scaling of microservices in a complex application.</p>
+<hr>
+<h2 id="when-not-to-use-microservices">When not to use microservices<a hidden class="anchor" aria-hidden="true" href="#when-not-to-use-microservices">#</a></h2>
+<p>For example, if you&rsquo;re developing a simple application or a prototype, microservices may add unnecessary complexity. Similarly, if your application doesn&rsquo;t require a high level of scalability or fault tolerance, microservices may not be necessary. Additionally, microservices can add additional overhead, such as the need for containerization and orchestration tools, which can increase development and deployment costs. Ultimately, it&rsquo;s up to developers to decide whether microservices are the right fit for their specific application and business requirements.</p>
+<hr>
+<h2 id="video">Video<a hidden class="anchor" aria-hidden="true" href="#video">#</a></h2>
+<p>Microservices Explained in 5 Minutes
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/lL_j7ilk7rc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<p>Kubernetes vs. Docker
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/2vMEQ5zs1ko" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://davidinsider.com">David</a></span>
+    <span>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

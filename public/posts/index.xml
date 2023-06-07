@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on David</title>
+    <link>https://davidinsider.com/posts/</link>
+    <description>Recent content in Posts on David</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidinsider.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming Languages</title>
+      <link>https://davidinsider.com/posts/programminglanguages/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/programminglanguages/</guid>
+      <description>A programming language is a system of notation for writing computer programs. Languages can be viewed through two components.
+Semantics (function) - refers to the meaning behind the code, such as what a particular command or function does.
+Syntax (form) - refers to the rules and structure of a programming language, such as how code is written and formatted.
+Together, semantics and syntax define a language
+Additionally, languages can be defined by its specification or a implementation</description>
+    </item>
+    
+    <item>
+      <title>AWS</title>
+      <link>https://davidinsider.com/posts/aws/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/aws/</guid>
+      <description>Compute AWS 5 main computing services
+Amazon Elastic Compute Cloud (EC2) AWS Lambda Amazon Elastic Container Service (ECS) Amazon Elastic Kubernetes Service (EKS) Amazon Elastic Beanstalk All of these services run on EC2 but are configured to certain needs.
+EC2:
+A virtual server where you can run applications and host services. This is the most basic, flexible, and configurable service that Amazon provides. Choose EC2 if AWS has no other service for your needs or if you want to manage your infrastructure Lambda:</description>
+    </item>
+    
+    <item>
+      <title>Programming Paradigms</title>
+      <link>https://davidinsider.com/posts/paradigm/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/paradigm/</guid>
+      <description>A programming paradigm is a way to classify programming languages.
+Paradigms Imperative procedural object-oriented Declarative functional logic reactive Imperative programming This paradigm involves commands for the computer to perform actions. It focuses on describing how a program operates.
+procedural: relies on a sequence of steps to solve a problem (C, Pascal, and FORTRAN) object-oriented: uses &amp;lsquo;objects&amp;rsquo; (instances of classes) which are organized around data and behavior. (Python, Java, and C++) Declarative programming This paradigm expresses the logic of a computation without describing its control flow.</description>
+    </item>
+    
+    <item>
+      <title>Sammy Talk</title>
+      <link>https://davidinsider.com/posts/sammytalk/</link>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/sammytalk/</guid>
+      <description>May 20 2023 I just had a talk with my friend Sammy and I was reflecting on how much we have changed.
+I was thinking about how my life has changed this past year. I would say this past year has been a year of growth and change - something we should strive for in terms of self-improvement.
+The change I noticed today after talking to Sammy, was how our conversations seemed different.</description>
+    </item>
+    
+    <item>
+      <title>Languages</title>
+      <link>https://davidinsider.com/posts/languages/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/languages/</guid>
+      <description>Future I take a futuristic standpoint in this post. Consider every sentence where I use the word &amp;ldquo;will&amp;rdquo; - as in, has not happened yet.
+Language Value How do you value a language?
+While this is personal, I value it by how many speakers will speak it within the next 10 years.
+Experts predict this will be:
+Spanish Mandarin Chinese English Another way I like to value languages are by how it could affect my work (tech).</description>
+    </item>
+    
+    <item>
+      <title>Containers vs Virtual Machines</title>
+      <link>https://davidinsider.com/posts/contvsvirt/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/contvsvirt/</guid>
+      <description>What are containers and virtual machines? Containers and virtual machines are technologies that provide isolated environments for running software applications. They&amp;rsquo;re used in deploying and managing applications, and they help address challenges related to compatibility, portability, and resource utilization.
+How are containers and virtual machines similar? Both containers and virtual machines are designed to encapsulate an application along with its environment. This encapsulation includes the application itself, its dependencies, libraries, and other binaries.</description>
+    </item>
+    
+    <item>
+      <title>Microservices</title>
+      <link>https://davidinsider.com/posts/microservices/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/microservices/</guid>
+      <description>What are microservices? Microservices are a software development approach in which applications are broken down into small, independent (micro)services that work together to provide a larger overall system.
+How do they work though? Each microservice is responsible for a specific capability and communicate with other microservices through API&amp;rsquo;s or other lightweight messaging protocols.
+For example, let&amp;rsquo;s say you have a user authentication service, a product catalog service, and a payment processing service.</description>
+    </item>
+    
+    <item>
+      <title>Quotes</title>
+      <link>https://davidinsider.com/posts/quotes/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/quotes/</guid>
+      <description>If I had an hour to solve a problem, I&amp;rsquo;d spend 55 minutes thinking about the problem and 5 minutes thinking about solutions - Einstein
+Be the one who goes first; Introduce yourself first, help a stranger first, say hello first, because life rewards those who go first; those who initiate and not those who wait for others. - Unknown
+Stand on the shoulders of giants - Sir Isaac Newton</description>
+    </item>
+    
+    <item>
+      <title>Youtube Favorite Creators</title>
+      <link>https://davidinsider.com/posts/youtube/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/youtube/</guid>
+      <description>Channels Fireship
+Good web dev content I think
+https://www.youtube.com/@Fireship 3Blue1Brown
+Some of the best visuals in education
+https://www.youtube.com/@3blue1brown Johnny Harris
+A journalist who I think makes good, entertaining work
+https://www.youtube.com/@johnnyharris Vox
+An american mass media company who makes interesting videos
+https://www.youtube.com/@Vox Good Work
+Funny and unique content that talks about work
+https://www.youtube.com/@GoodWorkMB </description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing</title>
+      <link>https://davidinsider.com/posts/cloud/</link>
+      <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/cloud/</guid>
+      <description>What is cloud computing Cloud computing refers to the delivery of computing services over the internet, including servers, storage, databases, networking, software, analytics, and intelligence.
+Cloud Computing Models Infrastructure as a Service (IaaS) Platform as a Service (PaaS) Software as a Service (SaaS Function as a Service (FaaS) What are Cloud Native Applications? Cloud native applications are applications that are built and designed to leverage cloud computing frameworks. They are developed with modern methodologies to provide flexibility, efficiency, and robustness in the cloud environment.</description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>https://davidinsider.com/posts/education/</link>
+      <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/education/</guid>
+      <description>The video serves as a guide as to how I advanced so fast in my educational career and my overall thoughts on education.
+https://www.youtube.com/watch?v=o5vp4Tk6vd0</description>
+    </item>
+    
+    <item>
+      <title>Software Architectures</title>
+      <link>https://davidinsider.com/posts/softwarearchitectures/</link>
+      <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/softwarearchitectures/</guid>
+      <description>I like to group architectures into 2 groups: Coupled architectures and Decoupled architectures.
+A decoupled architecture is one in which an applications components are weakly associated with each other. Coupled would be the opposite.
+Coupled architectures Monolithic architecture (tightly coupled) Serverless architecture (loosely coupled) Decoupled architectures Microservices architecture Event-driven architecture Service-oriented architecture Definitions Monolithic architecture is a tightly coupled architecture where all the components of an application are deployed as a single unit.</description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://davidinsider.com/posts/tools/</link>
+      <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/tools/</guid>
+      <description>Interactive Codebase Diagram https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=gothinkster%2Frealworld
+Stack Overflow Survey https://insights.stackoverflow.com/survey </description>
+    </item>
+    
+    <item>
+      <title>Wikipedia</title>
+      <link>https://davidinsider.com/posts/wikipedia/</link>
+      <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/wikipedia/</guid>
+      <description>The best website in existence </description>
+    </item>
+    
+  </channel>
+</rss>
