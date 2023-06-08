@@ -41,3 +41,5 @@ Every child is an artist. The challenge is staying an artist when you grow up. -
 Pleasure in the job puts perfection in the work. - Aristotle
 
 ---
+
+I don't want to belong to any club that would accept me as one of its members - Groucho Marx
