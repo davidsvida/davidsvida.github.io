@@ -32,6 +32,8 @@ A personal post that serves as a reference for me
 
 - https://en.wikipedia.org/wiki/Git
 
+- https://en.wikipedia.org/wiki/Bluetooth
+
 - https://en.wikipedia.org/wiki/Research
 
 
