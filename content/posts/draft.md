@@ -1,12 +1,11 @@
 ---
 title: "Future posts"
-date: 2023-04-30
-description: "Where I write ideas for things I want to learn"
+date: 2023-06-08
 showToc: false
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
-seachHidden: true
+seachHidden: false
 comments: false
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -20,28 +19,24 @@ UseHugoToc: false
 ShowPostNavLinks: false
 ---
 
+- https://en.wikipedia.org/wiki/HTTP
 
+- https://en.wikipedia.org/wiki/Patent
 
+- https://en.wikipedia.org/wiki/Linux
 
-## HTTP (how it changed the world)
+- https://en.wikipedia.org/wiki/Computer_engineering
 
-RESTful services 
+- https://en.wikipedia.org/wiki/Git
 
-RESTful services use HTTP verbs such as GET, POST, PUT, and DELETE to perform different operations on resources.
+- https://en.wikipedia.org/wiki/Research
 
+- https://en.wikipedia.org/wiki/Bureaucracy
+    - Bureaucracy on business 
 
-REST API is a type of web service that uses HTTP requests to access and manipulate data.
+- https://en.wikipedia.org/wiki/Camera
 
----
-
-## Questions
-
--   Research some new Tech (100 seconds of from fireship) 
-    -   [How a CPU Works in 100 Seconds // Apple Silicon M1 vs Intel i9](https://www.youtube.com/watch?v=vqs_0W-MSB0)
-
-
--   is most of the web dev github repos written in PHP or what? I keep seeing it everywhere
-
--   Containers share the host operating system kernel
+- https://en.wikipedia.org/wiki/Apple_silicon
+    -  https://www.youtube.com/watch?v=vqs_0W-MSB0
 
 
