@@ -5,7 +5,26 @@
     <link>https://davidinsider.com/</link>
     <description>Recent content on David</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidinsider.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidinsider.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Future posts</title>
+      <link>https://davidinsider.com/posts/draft/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidinsider.com/posts/draft/</guid>
+      <description>A personal post that serves as a reference for me
+https://en.wikipedia.org/wiki/HTTP
+https://en.wikipedia.org/wiki/Patent
+https://en.wikipedia.org/wiki/Linux
+https://en.wikipedia.org/wiki/Computer_engineering
+https://en.wikipedia.org/wiki/Git
+https://en.wikipedia.org/wiki/Research
+https://en.wikipedia.org/wiki/Camera
+https://en.wikipedia.org/wiki/Apple_silicon
+https://www.youtube.com/watch?v=vqs_0W-MSB0 https://en.wikipedia.org/wiki/Bureaucracy
+Bureaucracy on business </description>
+    </item>
+    
     <item>
       <title>Programming Languages</title>
       <link>https://davidinsider.com/posts/programminglanguages/</link>

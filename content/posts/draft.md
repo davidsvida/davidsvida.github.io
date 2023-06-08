@@ -19,6 +19,9 @@ UseHugoToc: false
 ShowPostNavLinks: false
 ---
 
+A personal post that serves as a reference for me
+
+
 - https://en.wikipedia.org/wiki/HTTP
 
 - https://en.wikipedia.org/wiki/Patent
@@ -31,12 +34,11 @@ ShowPostNavLinks: false
 
 - https://en.wikipedia.org/wiki/Research
 
-- https://en.wikipedia.org/wiki/Bureaucracy
-    - Bureaucracy on business 
 
 - https://en.wikipedia.org/wiki/Camera
 
 - https://en.wikipedia.org/wiki/Apple_silicon
     -  https://www.youtube.com/watch?v=vqs_0W-MSB0
 
-
+- https://en.wikipedia.org/wiki/Bureaucracy
+    - Bureaucracy on business 
