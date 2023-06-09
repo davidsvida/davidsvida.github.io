@@ -28,6 +28,8 @@ A personal post that serves as a reference for me
 
 - https://en.wikipedia.org/wiki/Linux
 
+- https://en.wikipedia.org/wiki/Blockchain
+
 - https://en.wikipedia.org/wiki/Computer_engineering
 
 - https://en.wikipedia.org/wiki/Git
@@ -37,6 +39,9 @@ A personal post that serves as a reference for me
 - https://en.wikipedia.org/wiki/Research
 
 - https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines
+
+- https://en.wikipedia.org/wiki/Single_sign-on
+    - https://www.youtube.com/watch?v=O1cRJWYF-g4
 
 - https://en.wikipedia.org/wiki/ArXiv
 
