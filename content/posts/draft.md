@@ -30,7 +30,13 @@ A personal post that serves as a reference for me
 
 - https://en.wikipedia.org/wiki/Computer_engineering
 
-- https://en.wikipedia.org/wiki/Git
+- https://en.wikipedia.org/wiki/
+
+- https://en.wikipedia.org/wiki/Email
+
+- https://en.wikipedia.org/wiki/Search_engine 
+
+- https://en.wikipedia.org/wiki/GitLab
 
 - https://en.wikipedia.org/wiki/Bluetooth
 
