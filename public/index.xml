@@ -4,13 +4,14 @@
     <title>David</title>
     <link>https://davidinsider.com/</link>
     <description>Recent content on David</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://davidinsider.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidinsider.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cloud Metrics</title>
-      <link>https://davidinsider.com/cloudmetrics/</link>
+      <link>https://davidinsider.com/posts/cloudmetrics/</link>
       <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/cloudmetrics/</guid>
+      <guid>https://davidinsider.com/posts/cloudmetrics/</guid>
       <description>Metrics are measures of quantitative assessment commonly used for comparing, and tracking performance or production.
 In cloud computing, we use cloud monitoring to track these cloud metrics. Monitoring is a broad term that refers to the process of collecting/analyzing data.
 Cloud Monitoring Cloud monitoring is basically tracking cloud elements (applications, networks, services, infrastructure) in an attempt to ensure their availability, performance, and security.
@@ -19,20 +20,17 @@ Let&amp;rsquo;s look break cloud monitoring down into sections.</description>
     
     <item>
       <title>Future posts</title>
-      <link>https://davidinsider.com/draft/</link>
+      <link>https://davidinsider.com/posts/draft/</link>
       <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/draft/</guid>
+      <guid>https://davidinsider.com/posts/draft/</guid>
       <description>A personal post that serves as a reference for me
 https://en.wikipedia.org/wiki/Software_maintenance
 https://en.wikipedia.org/wiki/HTTP
 https://en.wikipedia.org/wiki/Patent
 https://en.wikipedia.org/wiki/Linux
 https://en.wikipedia.org/wiki/Computer_engineering
-https://en.wikipedia.org/wiki/
-https://en.wikipedia.org/wiki/Email
-https://en.wikipedia.org/wiki/Search_engine
-https://en.wikipedia.org/wiki/GitLab
+https://en.wikipedia.org/wiki/Git
 https://en.wikipedia.org/wiki/Bluetooth
 https://en.wikipedia.org/wiki/Research
 https://en.wikipedia.org/wiki/Camera
@@ -43,10 +41,10 @@ Bureaucracy on business </description>
     
     <item>
       <title>Programming Languages</title>
-      <link>https://davidinsider.com/programminglanguages/</link>
+      <link>https://davidinsider.com/posts/programminglanguages/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/programminglanguages/</guid>
+      <guid>https://davidinsider.com/posts/programminglanguages/</guid>
       <description>A programming language is a system of notation for writing computer programs. Languages can be viewed through two components.
 Semantics (function) - refers to the meaning behind the code, such as what a particular command or function does.
 Syntax (form) - refers to the rules and structure of a programming language, such as how code is written and formatted.
@@ -56,10 +54,10 @@ Additionally, languages can be defined by its specification or a implementation<
     
     <item>
       <title>AWS</title>
-      <link>https://davidinsider.com/aws/</link>
+      <link>https://davidinsider.com/posts/aws/</link>
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/aws/</guid>
+      <guid>https://davidinsider.com/posts/aws/</guid>
       <description>Compute AWS 5 main computing services
 Amazon Elastic Compute Cloud (EC2) AWS Lambda Amazon Elastic Container Service (ECS) Amazon Elastic Kubernetes Service (EKS) Amazon Elastic Beanstalk All of these services run on EC2 but are configured to certain needs.
 EC2:
@@ -68,10 +66,10 @@ A virtual server where you can run applications and host services. This is the m
     
     <item>
       <title>Programming Paradigms</title>
-      <link>https://davidinsider.com/paradigm/</link>
+      <link>https://davidinsider.com/posts/paradigm/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/paradigm/</guid>
+      <guid>https://davidinsider.com/posts/paradigm/</guid>
       <description>A programming paradigm is a way to classify programming languages.
 Paradigms Imperative procedural object-oriented Declarative functional logic reactive Imperative programming This paradigm involves commands for the computer to perform actions. It focuses on describing how a program operates.
 procedural: relies on a sequence of steps to solve a problem (C, Pascal, and FORTRAN) object-oriented: uses &amp;lsquo;objects&amp;rsquo; (instances of classes) which are organized around data and behavior. (Python, Java, and C++) Declarative programming This paradigm expresses the logic of a computation without describing its control flow.</description>
@@ -79,10 +77,10 @@ procedural: relies on a sequence of steps to solve a problem (C, Pascal, and FOR
     
     <item>
       <title>Sammy Talk</title>
-      <link>https://davidinsider.com/sammytalk/</link>
+      <link>https://davidinsider.com/posts/sammytalk/</link>
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/sammytalk/</guid>
+      <guid>https://davidinsider.com/posts/sammytalk/</guid>
       <description>May 20 2023 I just had a talk with my friend Sammy and I was reflecting on how much we have changed.
 I was thinking about how my life has changed this past year. I would say this past year has been a year of growth and change - something we should strive for in terms of self-improvement.
 The change I noticed today after talking to Sammy, was how our conversations seemed different.</description>
@@ -90,10 +88,10 @@ The change I noticed today after talking to Sammy, was how our conversations see
     
     <item>
       <title>Languages</title>
-      <link>https://davidinsider.com/languages/</link>
+      <link>https://davidinsider.com/posts/languages/</link>
       <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/languages/</guid>
+      <guid>https://davidinsider.com/posts/languages/</guid>
       <description>Future I take a futuristic standpoint in this post. Consider every sentence where I use the word &amp;ldquo;will&amp;rdquo; - as in, has not happened yet.
 Language Value How do you value a language?
 While this is personal, I value it by how many speakers will speak it within the next 10 years.
@@ -103,20 +101,20 @@ Spanish Mandarin Chinese English Another way I like to value languages are by ho
     
     <item>
       <title>Containers vs Virtual Machines</title>
-      <link>https://davidinsider.com/contvsvirt/</link>
+      <link>https://davidinsider.com/posts/contvsvirt/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/contvsvirt/</guid>
+      <guid>https://davidinsider.com/posts/contvsvirt/</guid>
       <description>What are containers and virtual machines? Containers and virtual machines are technologies that provide isolated environments for running software applications. They&amp;rsquo;re used in deploying and managing applications, and they help address challenges related to compatibility, portability, and resource utilization.
 How are containers and virtual machines similar? Both containers and virtual machines are designed to encapsulate an application along with its environment. This encapsulation includes the application itself, its dependencies, libraries, and other binaries.</description>
     </item>
     
     <item>
       <title>Microservices</title>
-      <link>https://davidinsider.com/microservices/</link>
+      <link>https://davidinsider.com/posts/microservices/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/microservices/</guid>
+      <guid>https://davidinsider.com/posts/microservices/</guid>
       <description>What are microservices? Microservices are a software development approach in which applications are broken down into small, independent (micro)services that work together to provide a larger overall system.
 How do they work though? Each microservice is responsible for a specific capability and communicate with other microservices through API&amp;rsquo;s or other lightweight messaging protocols.
 For example, let&amp;rsquo;s say you have a user authentication service, a product catalog service, and a payment processing service.</description>
@@ -124,10 +122,10 @@ For example, let&amp;rsquo;s say you have a user authentication service, a produ
     
     <item>
       <title>Quotes</title>
-      <link>https://davidinsider.com/quotes/</link>
+      <link>https://davidinsider.com/posts/quotes/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/quotes/</guid>
+      <guid>https://davidinsider.com/posts/quotes/</guid>
       <description>If I had an hour to solve a problem, I&amp;rsquo;d spend 55 minutes thinking about the problem and 5 minutes thinking about solutions - Einstein
 Be the one who goes first; Introduce yourself first, help a stranger first, say hello first, because life rewards those who go first; those who initiate and not those who wait for others. - Unknown
 Stand on the shoulders of giants - Sir Isaac Newton</description>
@@ -135,10 +133,10 @@ Stand on the shoulders of giants - Sir Isaac Newton</description>
     
     <item>
       <title>Youtube Favorite Creators</title>
-      <link>https://davidinsider.com/youtube/</link>
+      <link>https://davidinsider.com/posts/youtube/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/youtube/</guid>
+      <guid>https://davidinsider.com/posts/youtube/</guid>
       <description>Channels Fireship
 Good web dev content I think
 https://www.youtube.com/@Fireship 3Blue1Brown
@@ -154,30 +152,30 @@ https://www.youtube.com/@GoodWorkMB </description>
     
     <item>
       <title>Cloud Computing</title>
-      <link>https://davidinsider.com/cloud/</link>
+      <link>https://davidinsider.com/posts/cloud/</link>
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/cloud/</guid>
+      <guid>https://davidinsider.com/posts/cloud/</guid>
       <description>What is cloud computing Cloud computing refers to the delivery of computing services over the internet, including servers, storage, databases, networking, software, analytics, and intelligence.
 Cloud Computing Models Infrastructure as a Service (IaaS) Platform as a Service (PaaS) Software as a Service (SaaS Function as a Service (FaaS) What are Cloud Native Applications? Cloud native applications are applications that are built and designed to leverage cloud computing frameworks. They are developed with modern methodologies to provide flexibility, efficiency, and robustness in the cloud environment.</description>
     </item>
     
     <item>
       <title>Education</title>
-      <link>https://davidinsider.com/education/</link>
+      <link>https://davidinsider.com/posts/education/</link>
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/education/</guid>
+      <guid>https://davidinsider.com/posts/education/</guid>
       <description>The video serves as a guide as to how I advanced so fast in my educational career and my overall thoughts on education.
 https://www.youtube.com/watch?v=o5vp4Tk6vd0</description>
     </item>
     
     <item>
       <title>Software Architectures</title>
-      <link>https://davidinsider.com/softwarearchitectures/</link>
+      <link>https://davidinsider.com/posts/softwarearchitectures/</link>
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/softwarearchitectures/</guid>
+      <guid>https://davidinsider.com/posts/softwarearchitectures/</guid>
       <description>I like to group architectures into 2 groups: Coupled architectures and Decoupled architectures.
 A decoupled architecture is one in which an applications components are weakly associated with each other. Coupled would be the opposite.
 Coupled architectures Monolithic architecture (tightly coupled) Serverless architecture (loosely coupled) Decoupled architectures Microservices architecture Event-driven architecture Service-oriented architecture Definitions Monolithic architecture is a tightly coupled architecture where all the components of an application are deployed as a single unit.</description>
@@ -185,20 +183,20 @@ Coupled architectures Monolithic architecture (tightly coupled) Serverless archi
     
     <item>
       <title>Tools</title>
-      <link>https://davidinsider.com/tools/</link>
+      <link>https://davidinsider.com/posts/tools/</link>
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/tools/</guid>
+      <guid>https://davidinsider.com/posts/tools/</guid>
       <description>Interactive Codebase Diagram https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=gothinkster%2Frealworld
 Stack Overflow Survey https://insights.stackoverflow.com/survey </description>
     </item>
     
     <item>
       <title>Wikipedia</title>
-      <link>https://davidinsider.com/wikipedia/</link>
+      <link>https://davidinsider.com/posts/wikipedia/</link>
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://davidinsider.com/wikipedia/</guid>
+      <guid>https://davidinsider.com/posts/wikipedia/</guid>
       <description>The best website in existence </description>
     </item>
     
