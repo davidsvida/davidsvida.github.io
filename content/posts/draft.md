@@ -38,7 +38,7 @@ A personal post that serves as a reference for me
 
 - https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines
 
-- https://en.wikipedia.org/wiki/ArXiv#Copyright_status_of_files
+- https://en.wikipedia.org/wiki/ArXiv
 
 - https://en.wikipedia.org/wiki/Camera
 
