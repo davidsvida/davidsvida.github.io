@@ -67,6 +67,8 @@ Tracks the financial aspects
 - Cost per resource: See the cost of individual resources (instances, storage, data transfer)
 - Cost efficiency: Assesses the cost-effectiveness of both services and resources.
 
+---
+
 
 ## Monitoring Services
 - AWS provides CloudWatch
