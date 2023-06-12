@@ -70,8 +70,6 @@ params:
     socialIcons:
         - name: linkedin
           url: "https://www.linkedin.com/in/davidcepeda05/"
-        - name: youtube
-          url: "https://www.youtube.com/@davidsvida679"
         - name: other 
           url: "https://docs.google.com/document/d/1i2J1ep5MFIYqG-mAg1iILxIVgpexzTRe"
         - name: ycombinator

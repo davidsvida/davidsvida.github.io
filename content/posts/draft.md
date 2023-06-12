@@ -30,6 +30,8 @@ A personal post that serves as a reference for me
 
 - https://en.wikipedia.org/wiki/Blockchain
 
+- https://en.wikipedia.org/wiki/Stock_keeping_unit
+
 - https://en.wikipedia.org/wiki/Computer_engineering
 
 - https://en.wikipedia.org/wiki/Git
@@ -44,6 +46,8 @@ A personal post that serves as a reference for me
     - https://www.youtube.com/watch?v=O1cRJWYF-g4
 
 - https://en.wikipedia.org/wiki/ArXiv
+
+
 
 - https://en.wikipedia.org/wiki/Camera
 
